@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/myTEI-taxonomy-.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Taxonomías</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gabriel Calarco</authority>
+                <availability>
+                    <licence>
+                        <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                            Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                
+                
+                
+          <taxonomy xml:id="écfrasis">
+              
+              <category xml:id="obras">
+                    <category xml:id="adobos"/>
+                    <category xml:id="armas">
+                        <category xml:id="escudo"/>
+                    </category>
+                    <category xml:id="carro"/>
+                    <category xml:id="sepulcro"/>
+                    <category xml:id="palacio">
+                        <category xml:id="arbolautomata"/>
+                    </category>
+                    <category xml:id="tienda"/>
+                </category>
+              
+                <category xml:id="lugares">
+                    <category xml:id="asia"/>
+                    <category xml:id="babilonia"/>
+                    <category xml:id="infierno"/>
+                </category>
+              
+              <category xml:id="viajes">
+                  <category xml:id="viajesubmarino"/>
+                  <category xml:id="viajeaéreo"/>
+              </category>
+              
+            </taxonomy>
+ 
+                
+                
+                <taxonomy xml:id="motivos">
+                    
+                    <category xml:id="científicos">
+                        <category xml:id="mapamundi"/>
+                        
+                        <category xml:id="tiempo">
+                            <category xml:id="astronomía"/>
+                            <category xml:id="calendario"/>
+                            <category xml:id="edaddelmundo"/>
+                        </category> 
+                        
+                        <category xml:id="naturaleza">
+                            <category xml:id="vegetales">
+                                <category xml:id="uvas"/>
+                                <category xml:id="especias"/>
+                            </category>
+                            <category xml:id="animales"/>
+                            <category xml:id="lapidario"/>
+                         </category>
+                    </category>
+                    
+                    <category xml:id="religiosos">
+                        <category xml:id="torredebabel"/>
+                        <category xml:id="reyesdeoriente"/>
+                        <category xml:id="caidalucifer"/>
+                        <category xml:id="adanyeva"/>
+                        <category xml:id="patriarcas">
+                            <category xml:id="noe"/>
+                            <category xml:id="abraham"/>
+                            <category xml:id="moises"/>
+                        </category>
+                        <category xml:id="profetas">
+                            <category xml:id="daniel"/>
+                        </category>
+                        <category xml:id="reyesdeisrael"/>
+                        <category xml:id="nuevotestamento"/>
+                        <category xml:id="pecadoscapitales">
+                            <category xml:id="ejemploenvidioso"/>
+                        </category>
+                        <category xml:id="soberbia"/>
+                        <category xml:id="paraíso"/>
+                    </category>
+                    
+                    <category xml:id="clásicos">
+                        <category xml:id="diosespaganos"/>
+                        <category xml:id="hercules"/>
+                        <category xml:id="troya"/>
+                        <category xml:id="alejandro"/>
+                    </category>
+                    
+                </taxonomy>
+                
+                
+            </classDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

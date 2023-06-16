@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="armas_aquiles" ref="https://vocabularyserver.com/alexandre/index.php?tema=697">Armas de Aquiles</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note> Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                
+                
+             <lg n="653" type="terástico" met="4x14" rhyme="AAAA">     
+                <l xml:id="L1">En pocas de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=310" type="artistico">palabras</term> 
+                <caesura/>vos quiero <term ref="https://vocabularyserver.com/alexandre/index.php?tema=79" type="artistico">destajar</term></l>		
+                <l xml:id="L2">la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obra</term> de las 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=62" type="artistico">armas</term> <caesura/>
+                qu’<persName ref="https://vocabularyserver.com/alexandre/index.php?tema=210" type="clasico">Aquiles</persName> mandó far,</l>	
+                <l xml:id="L3">que, si por orden todo <caesura/>lo quesiés’én’ 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=77" type="artistico">notar</term>,</l>		
+                <l xml:id="L4">serié un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=311" type="artistico">brevïario</term> 
+                <caesura/>que prendrié grant logar.</l>
+             </lg>     
+            
+             <lg n="654" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi"> 
+                 <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                 <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                <l xml:id="L5">Omne que por espaçio <caesura/>lo quesiesse 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=200" type="artistico">asmar</term></l> 
+                 <l xml:id="L6" ana="#animales">ý <term ref="https://vocabularyserver.com/alexandre/index.php?tema=198" type="artistico">verié</term> 
+                 los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=281" type="enciclopedico">pescados</term> 
+                 <caesura/>quantos son en la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mar</term>,</l>
+                 <l xml:id="L7">las unas <term ref="https://vocabularyserver.com/alexandre/index.php?tema=232" type="enciclopedico">naves</term> 
+                 ir <caesura/>e las otras tornar,</l>
+                <l xml:id="L8">las unas pereçer <caesura/>e las otras arribar.</l>
+             </lg> 
+                  
+             <lg n="655" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi"> 
+                 <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>     
+                 <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=316" subtype="religioso">Torre de Babel</note>   
+                 <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                 <l xml:id="L9">Ý estavan las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=233" type="enciclopedico">tierras</term> 
+                 <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=236" type="enciclopedico">por poblar e pobladas</term>,</l>	
+                 <l xml:id="L10">los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=234" type="enciclopedico">montes</term> e las 
+                 <term ref="https://vocabularyserver.com/alexandre/index.php?tema=229" type="enciclopedico">aguas</term> <caesura/>e las 
+                 <term ref="https://vocabularyserver.com/alexandre/index.php?tema=237" type="enciclopedico">villas</term> çercadas,</l> 
+                 <l xml:id="L11" ana="#torredebabel">la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=316" type="religioso">Torre</term> 
+                 que fizieron <caesura/>las gentes perjuradas,</l>	
+                 <l xml:id="L12" ana="#animales">las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=282" type="enciclopedico">aves</term> 
+                 e las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=284" type="enciclopedico">bestias</term> 
+                 <caesura/>por domar e domadas.</l>
+            </lg>
+                 
+            <lg n="656" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi"> 
+                <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>
+                <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=249" subtype="enciclopedico">Calendario</note>
+                <l xml:id="L13">Ý estavan contrarios <caesura/>los 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=244" type="enciclopedico">vientos</term> prinçipales,</l>
+                <l xml:id="L14">cadaunos cuémo corren <caesura/>e quáles temporales;</l>	
+                <l xml:id="L15">ónde naçen los truenos <caesura/>e los rayos mortales,</l>
+                <l xml:id="L16" ana="#calendario">cuémo son en el año <caesura/>
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=260" type="enciclopedico">quatro tiempos cabdales</term>.</l>
+            </lg>
+                
+            <lg n="657" type="terástico" met="4x14" rhyme="AAAA" ana="#calendario"> 
+                <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=249" subtype="enciclopedico">Calendario</note>
+                <l xml:id="L17">Estava don <term ref="https://vocabularyserver.com/alexandre/index.php?tema=262" type="enciclopedico">Ivierno</term> 
+                <caesura/>con vientos e geladas,</l>		
+                <l xml:id="L18">el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=263" type="enciclopedico">Verano</term> 
+                con flores <caesura/>e dulçes mañanadas,</l>		
+                <l xml:id="L19"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=264" type="enciclopedico">Estiv’</term> 
+                con granados soles <caesura/>e miesses espigadas,</l>	
+                <l xml:id="L20"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=265" type="enciclopedico">Atupno</term> 
+                vendimiando <caesura/>e faziendo pomadas.</l>
+             </lg>
+                            
+             <lg n="658" type="terástico" met="4x14" rhyme="AAAA" ana="#astronomía">
+                 <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=248" subtype="enciclopedico">Astronomía</note>
+                 <l xml:id="L21">Eran ý los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=251" type="enciclopedico">doz’ signos</term> 
+                 <caesura/>del <term ref="https://vocabularyserver.com/alexandre/index.php?tema=254" type="enciclopedico">Sol</term> bien 
+                 <term ref="https://vocabularyserver.com/alexandre/index.php?tema=40" type="artistico">compassados</term>,</l>	
+                <l xml:id="L22">los unos de los otros <caesura/>
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=355" type="artistico">igualmente</term> 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=48" type="artistico">tajados</term>;</l>	
+                 <l xml:id="L23">e las siete <term ref="https://vocabularyserver.com/alexandre/index.php?tema=256" type="enciclopedico">planetas</term> 
+                 <caesura/>cuémo tienen sus <term ref="https://vocabularyserver.com/alexandre/index.php?tema=253" type="enciclopedico">grados</term>,</l>
+                <l xml:id="L24">quáles son más raviosos <caesura/>o quáles más pagados.</l>
+             </lg>
+                
+             <lg n="659" type="terástico" met="4x14" rhyme="AAAA"> 
+                <l xml:id="L25">Non es omne tan neçio <caesura/>que 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=198" type="artistico">viesse</term> el 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=98" type="artistico">escudo</term></l>		
+                <l xml:id="L26">que non fuesse buen <term ref="https://vocabularyserver.com/alexandre/index.php?tema=8" type="artistico">clérigo</term> 
+                <caesura/>sobra bien <term ref="https://vocabularyserver.com/alexandre/index.php?tema=16" type="artistico">entendudo</term>;</l>	
+                <l xml:id="L27">el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=3" type="artistico">maestro</term> 
+                que’l fizo <caesura/>fue tan mientes metudo</l>	
+                <l xml:id="L28">que <term ref="https://vocabularyserver.com/alexandre/index.php?tema=37" type="artistico">metió</term> en las 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=62" type="artistico">armas</term> <caesura/>
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=167" type="artistico">granado</term> e 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=166" type="artistico">menudo</term>.</l>
+             </lg>
+                     
+             <lg n="660" type="terástico" met="4x14" rhyme="AAAA"> 
+                <l xml:id="L29">Maguer no’l fazié mengua, <caesura/>ca era encantado,</l>		
+                <l xml:id="L30">vistió una <term ref="https://vocabularyserver.com/alexandre/index.php?tema=91" type="artistico">loriga</term> 
+                <caesura/>de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=159" type="artistico">azero colado</term>,</l>		
+                <l xml:id="L31"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=174">terliz</term> e bien 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=43" type="artistico">texida</term>, 
+                <caesura/>el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=93" type="artistico">almofre</term> doblado,</l>		
+                 <l xml:id="L32">que del maço de <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=211" type="clasico">Éctor</persName> 
+                 <caesura/>non oviesse cuidado.</l>
+             </lg>
+                
+             <lg n="661" type="terástico" met="4x14" rhyme="AAAA"> 
+                <l xml:id="L33">Por defender las cambas, <caesura/>calçó las 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=95" type="artistico">brafoneras</term>;</l>		
+                <l xml:id="L34">fízolas enlazar <caesura/>con firmes 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=96" type="artistico">trabugueras</term>;</l>		
+                <l xml:id="L35">calçós’ las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=92" type="artistico">espüelas</term> 
+                <caesura/>del cavallo guerreras,</l>		
+                <l xml:id="L36">quando fues’en alcançe, <caesura/>por livrar las carreras.</l>
+             </lg>
+                
+             <lg n="662" type="terástico" met="4x14" rhyme="AAAA">
+                <l xml:id="L37">Posiéronle un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=94" type="artistico">yelmo</term> 
+                <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=178" type="artistico">firme</term> e bien 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obrado</term>,</l>
+                <l xml:id="L38">que por oro nin por plata <caesura/>non sería comprado;</l>	
+                <l xml:id="L39">fue a grant <term ref="https://vocabularyserver.com/alexandre/index.php?tema=175" type="artistico">maestría</term> 
+                <caesura/>preso e enlazado.</l>		
+                <l xml:id="L40">¡Cuemo estava fellón, <caesura/>
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=203" type="artistico">semejava</term> pecado!</l>	
+             </lg>
+                
+             <lg n="663" type="terástico" met="4x14" rhyme="AAAA">
+                <l xml:id="L41">Después de todo esto, <caesura/>çiñó una 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=97" type="artistico">espada</term></l>	
+                <l xml:id="L42">que diez vezes fue fecha <caesura/>e diez vezes quebrada.</l>	
+                <l xml:id="L43">El que la ovo fecha, <caesura/>quando la ovo 
+                <term ref="https://vocabularyserver.com/alexandre/index.php?tema=44" type="artistico">temprada</term>,</l>	
+                <l xml:id="L44">dixo que nunca <term ref="https://vocabularyserver.com/alexandre/index.php?tema=198" type="artistico">viera</term> 
+                <caesura/>cosa tan <term ref="https://vocabularyserver.com/alexandre/index.php?tema=176" type="artistico">esmerada</term>.</l>	
+             </lg>
+                
+           </lg>
+        </body>
+    </text>
+</TEI>

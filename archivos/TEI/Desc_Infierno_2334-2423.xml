@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="desc_infierno" ref="https://vocabularyserver.com/alexandre/index.php?tema=427">Descripción del infierno</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+ 
+                
+                <lg n="2334" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L1">De la corte del <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term>, 
+                    <caesura/>un fambriento lugar</l>
+                    <l xml:id="L2">—la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=545" type="artistico">materia</term>
+                     lo manda—, <caesura/>quiero ende fablar:</l>	
+                    <l xml:id="L3">mal suelo, mal poblado, <caesura/>mal techo, mal fogar,</l>	
+                    <l xml:id="L4">es dubdo e espanto <caesura/>solo de començar.</l>
+                </lg>  
+            
+                <lg n="2335" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L5">El Crïador, que fizo <caesura/>todas las crïaturas</l>
+                    <l xml:id="L6">con diversos donaires <caesura/>e diversas figuras,</l>		
+                    <l xml:id="L7">ordenó los lugares <caesura/>de diversas naturas</l>		
+                    <l xml:id="L8">do reçiben las almas <caesura/>lazerios e folguras.</l>
+                </lg>   
+            
+                <lg n="2336" type="terástico" met="4x14" rhyme="AAAA" ana="#paraíso">
+                    <l xml:id="L9">Fizo pora los buenos, <caesura/>que lo aman servir,</l>
+                    <l xml:id="L10">que so aver non dubdan <caesura/>con los pobres partir,</l>	
+                    <l xml:id="L11">el santo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=577" type="religioso">Paraíso</term>, 
+                    do non pueden morir,</l>		
+                    <l xml:id="L12">do non podrán un punto <caesura/>de lazeria sofrir.</l>
+                </lg>
+            
+                <lg n="2337" type="terástico" met="4x14" rhyme="AAAA" ana="#paraíso">
+                    <l xml:id="L13">Allí serán en gloria <caesura/>qual non sabrán pedir,</l>
+                    <l xml:id="L14">qual non podrié nul omne <caesura/>fablar nin comedir.</l>	
+                    <l xml:id="L15">¡Metrán toda su fuerça <caesura/>en a Dios bendezir,</l>	
+                    <l xml:id="L16">al que fue, al que es, <caesura/>al que ha de venir!</l>
+                </lg>
+            
+                <lg n="2338" type="terástico" met="4x14" rhyme="AAAA" ana="#paraíso">
+                    <l xml:id="L17">Nunca sintrán tiniebra, <caesura/>nin frío nin calentura;</l>
+                    <l xml:id="L18">verán la faz de Dios, <caesura/>muy dulçe catadura:</l>		
+                    <l xml:id="L19">non se fartarán d’ella, <caesura/>tant’es la su dulçura.</l>		
+                    <l xml:id="L20">¡Qui allí heredar’ <caesura/>será de grant ventura!</l>
+                </lg>
+            
+                <lg n="2339" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L21">Pora los otros malos, <caesura/>que tienen mala vida,</l>
+                    <l xml:id="L22">que han la carrera <caesura/>derecha avorrida,</l>		
+                    <l xml:id="L23">fue fecho el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term>, 
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=238" type="enciclopedico">çibdat</term> mala complida,</l>	
+                    <l xml:id="L24">assaz mal aforado, <caesura/>sin ninguna sallida.</l>
+                </lg>
+            
+                <lg n="2340" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L25">Fondo yaz’el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term>: 
+                    <caesura/>nunca entra ý lumbre;</l>
+                    <l xml:id="L26">de sentir luz ninguna <caesura/>non es su costumbre.</l>		
+                    <l xml:id="L27">Los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=497" type="artistico">muros</term> 
+                    son de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=556" type="artistico">sufre</term>, 
+                    <caesura/>presos con tal <term ref="https://vocabularyserver.com/alexandre/index.php?tema=557" type="artistico">betubne</term></l>
+                    <l xml:id="L28">que non los derromprié <caesura/>ninguna fortidumbre.</l>
+                </lg>
+            
+                <lg n="2341" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=214" subtype="religioso">Adán y Eva</note>
+                    <l xml:id="L29">Silvan por las riberas <caesura/>muchas malas 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=324"  type="enciclopedico">sirpientes</term>:</l>
+                    <l xml:id="L30">están días e noches <caesura/>aguzando los dientes.</l>		
+                    <l xml:id="L31">Assechan a las almas: <caesura/>non tienen a ál mientes;</l>	
+                    <l xml:id="L32" ana="#adanyeva">por esto peligraron <caesura/>los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=214" type="religioso">primeros parientes</term>.</l>
+                </lg>
+            
+                <lg n="2342" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L33">Quando veen venir <caesura/>las almas pecadrizes,</l>
+                    <l xml:id="L34">trávanles de los labros, <caesura/>préndenlas de las narizes;</l>
+                    <l xml:id="L35">fázenles encorvar <caesura/>sin grado las çervizes.</l>		
+                    <l xml:id="L36">¡Las que allí non fueren <caesura/>ténganse por felizes!</l>
+                </lg>
+            
+                <lg n="2343" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L37">Nunca fartarse pueden: <caesura/>están muertas de fambre;</l>
+                    <l xml:id="L38">están todas cargadas <caesura/>de mala vedegambre;</l>	
+                    <l xml:id="L39">non apretarién tanto <caesura/>cadenas de arambre.</l>		
+                    <l xml:id="L40">¡Dios livre todo cristiano <caesura/>de tan mala pelambre!</l>
+                </lg>
+            
+                <lg n="2344" type="terástico" met="4x14" rhyme="AAAA">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=279" subtype="enciclopedico">Vegetales</note>
+                    <l xml:id="L41" ana="#vegetales">En todas sus comarcas <caesura/>non naçen nunca 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=558" type="enciclopedico">flores</term>,</l>
+                    <l xml:id="L42" ana="#vegetales">sinon 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=559" type="enciclopedico">espinas</term> duras 
+                    <caesura/>e <term ref="https://vocabularyserver.com/alexandre/index.php?tema=560" type="enciclopedico">cardos</term> poñidores;</l>		
+                    <l xml:id="L43">tovas que paren fumo <caesura/>e amargas pudores;</l>		
+                    <l xml:id="L44">peñiscales agudos, <caesura/>que son mucho peores.</l>
+                </lg>
+            
+                <lg n="2345" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L45">Dexemos de las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=561" type="artistico">islas</term>, 
+                    <caesura/>digamos del <term ref="https://vocabularyserver.com/alexandre/index.php?tema=562" type="artistico">raval</term>;</l>
+                    <l xml:id="L46">aún después iremos <caesura/>entrando al 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=647" type="artistico">real</term>.</l>		
+                    <l xml:id="L47">Avié poblaçión suzia <caesura/>fuera al mercadal:</l>		
+                    <l xml:id="L48" ana="#pecadoscapitales">
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=563" type="religioso">los siet’ viçios cabdales</term>, 
+                    <caesura/>que guardan el portal.</l>
+                </lg>
+            
+                <lg n="2346" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L49">Morava <term ref="https://vocabularyserver.com/alexandre/index.php?tema=564" type="religioso">Avariçia</term> 
+                    <caesura/>luego en la frontera;</l>
+                    <l xml:id="L50">esta es de los viçios <caesura/>madrona cabdellera.</l>		
+                    <l xml:id="L51">Quanto allega <term ref="https://vocabularyserver.com/alexandre/index.php?tema=565" type="religioso">Cobdiçia</term>, 
+                    <caesura/>que es su compañera,</l>	
+                    <l xml:id="L52">estalo escondiendo <caesura/>dentro en la poltera.</l>
+                </lg>
+            
+                <lg n="2347" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L53">Quanto doña <term ref="https://vocabularyserver.com/alexandre/index.php?tema=565" type="religioso">Cobdiçia</term> 
+                    <caesura/>podié ir allegando</l>
+                    <l xml:id="L54">ívalo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=564" type="religioso">Avariçia</term> 
+                    <caesura/>so tierra condesando.</l>			
+                    <l xml:id="L55">Quando le pidién algo, <caesura/>querié quebrar jurando:</l>
+                    <l xml:id="L56">¡muchos son en el sieglo <caesura/>que tienen el so bando!</l>
+                </lg>
+            
+                <lg n="2348" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L57">Han una crïadiella <caesura/>amas estas serores:</l>
+                    <l xml:id="L58"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=566" type="religioso">Ambiçio</term> 
+                    es su nombre, <caesura/>que muere por honores.</l>
+                    <l xml:id="L59">Trae malos sossacos, <caesura/>encubiertas peores:</l>	
+                    <l xml:id="L60">¡non viven de su grado <caesura/>amigos nin señores!</l>
+                </lg>
+            
+                <lg n="2349" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L61">Aven estas fambrientas <caesura/>compañas desleales:</l>
+                    <l xml:id="L62">logros, furtos, rapinas <caesura/>e engaños mortales.</l>		
+                    <l xml:id="L63">Estos mandan las rúas, <caesura/>yazen por los ravales;</l>	
+                    <l xml:id="L64">andan a las vegadas <caesura/>vestidos de sayales.</l>
+                </lg>
+            
+                <lg n="2350" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L65">Aven por concosina <caesura/>una mala vezina:</l>
+                    <l xml:id="L66"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=567" type="religioso">Envidia</term>, 
+                    la que fue <caesura/>e siempre será mesquina,</l>	
+                    <l xml:id="L67">un viçio que non sana <caesura/>por nulla melezina,</l>		
+                    <l xml:id="L68">que’s prende con quisquiere <caesura/>por cabellos aína.</l>
+                </lg>
+            
+                <lg n="2351" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L69">Quando vee al próximo <caesura/>bien aver o litiçia,</l>
+                    <l xml:id="L70">matarse quiere toda <caesura/>con derecha maliçia,</l>		
+                    <l xml:id="L71">mas si vee algunos <caesura/>que caen en tristiçia,</l>		
+                    <l xml:id="L72">esto ha por gozo, <caesura/>ca nunca ál cobdiçia.</l>
+                </lg>
+            
+                <lg n="2352" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L73">Toda cosa derecha <caesura/>razona ella mal:</l>
+                    <l xml:id="L74">delante dize bien, <caesura/>de çaga dize ál.</l>		
+                    <l xml:id="L75">Pésal’ con puerco gruesso <caesura/>en ajeno corral:</l>	
+                    <l xml:id="L76">si matarlo quisiessen, <caesura/>non les prestarié sal.</l>
+                </lg>
+            
+                <lg n="2353" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L77">Escontra la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=565" type="religioso">Cobdiçia</term> 
+                    <caesura/>está cabez’ tornada:</l>
+                    <l xml:id="L78">tiene de mal coraje <caesura/>la voluntat tornada;</l>		
+                    <l xml:id="L79">por lo que ella puede, <caesura/>está dessaborada.</l>		
+                    <l xml:id="L80">¡Si la quemasse fuego, <caesura/>serié ella pagada!</l>
+                </lg>
+            
+                <lg n="2354" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L81">Como de mala çepa <caesura/>naçen malos gromones,</l>
+                    <l xml:id="L82">naçen de esti viçio <caesura/>viçiosas crïazones:</l>		
+                    <l xml:id="L83">maldiçiones, tristiçias <caesura/>e otras diversiones.</l>		
+                    <l xml:id="L84">¡Despiertas’ cada día <caesura/>con malos aguijones!</l>
+                </lg>
+            
+                <lg n="2355" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L85">Quando vee buen fecho, <caesura/>quiérelo encobrir;</l>
+                    <l xml:id="L86">si encobrir non lo puede, <caesura/>quiérelo destroír.</l>	
+                    <l xml:id="L87">Faze a muchos omnes <caesura/>mala vida vevir,</l>		
+                    <l xml:id="L88">por onde ovo’l diablo <caesura/>en 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=638" type="religioso">Saúl</persName> a venir.</l>
+                </lg>
+            
+                <lg n="2356" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales #ejemploenvidioso">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=569" subtype="religioso">Exemplo del envidioso</note>
+                    <l xml:id="L89">Un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=568" type="artistico">exemplo</term> 
+                    vos quiero <caesura/>en esto adozir:</l>
+                    <l xml:id="L90">cómo sabe <term ref="https://vocabularyserver.com/alexandre/index.php?tema=567" type="religioso">Envidia</term> 
+                    <caesura/>a omne deçebir,</l>		
+                    <l xml:id="L91">cómo en sí misma <caesura/>quiere grant mal sofrir</l>
+                    <l xml:id="L92">por amor que podiesse <caesura/>al vezino nozir.</l>
+                </lg>
+            
+                <lg n="2357" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales #ejemploenvidioso">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=569" subtype="religioso">Exemplo del envidioso</note>
+                    <l xml:id="L93">Diz’ que dos compañeros <caesura/>de diverso semblant’,</l>
+                    <l xml:id="L94">el uno cobdiçioso, <caesura/>el otro envidiant’,</l>		
+                    <l xml:id="L95">fazién amos carrera <caesura/>por un monte verdiant’;</l>	
+                    <l xml:id="L96">fallaron un sant’omne <caesura/>de cuerpo bienestant’.</l>
+                </lg>
+            
+                <lg n="2358" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales #ejemploenvidioso">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=569" subtype="religioso">Exemplo del envidioso</note>
+                    <l xml:id="L97">Díxoles grant promessa <caesura/>ante que se partiesse:</l>
+                    <l xml:id="L98">que pidiesse el uno <caesura/>lo que sabor oviesse;</l>		
+                    <l xml:id="L99">a esse darié tanto <caesura/>qüanto qu’él pidiesse;</l>			
+                    <l xml:id="L100">al otro, doble tanto, <caesura/>que callando estoviesse.</l>
+                </lg>
+            
+                <lg n="2359" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales #ejemploenvidioso">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=569" subtype="religioso">Exemplo del envidioso</note>
+                    <l xml:id="L101">Calló el cobdiçioso, <caesura/>non quiso dezir nada</l>
+                    <l xml:id="L102">por amor que levasse <caesura/>la raçïón doblada.</l>			
+                    <l xml:id="L103">Quando entendió’l otro <caesura/>esta mala çelada,</l>		
+                    <l xml:id="L104">quiso quebrar d’embidia <caesura/>por medio la corada.</l>
+                </lg>
+            
+                <lg n="2360" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales #ejemploenvidioso">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=569" subtype="religioso">Exemplo del envidioso</note>
+                    <l xml:id="L105">Asmó entre su cuer: <caesura/>pidió un fuerte pedido,</l>
+                    <l xml:id="L106">qual non fue en el sieglo <caesura/>nin visto nin oído:</l>
+                    <l xml:id="L107">«Señor —diz’—, tú me tuelle <caesura/>el ojo más querido:</l>	
+                    <l xml:id="L108">¡dobla al compañero <caesura/>el don que yo te pido!»</l>
+                </lg>
+            
+                <lg n="2361" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales #ejemploenvidioso">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=569" subtype="religioso">Exemplo del envidioso</note>
+                    <l xml:id="L109">Fizos’el omne bueno	 <caesura/>mucho maravillado;</l>
+                    <l xml:id="L110">del omne envidioso <caesura/>fue müy despagado:</l>		
+                    <l xml:id="L111">¡vío que la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=567" type="religioso">Envidia</term> 
+                    <caesura/>es tan mortal pecado</l>		
+                    <l xml:id="L112">que non es por nul viçio <caesura/>omne tan mal dañado!</l>
+                </lg>
+            
+                <lg n="2362" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L113">¡Clérigos e cavalleros <caesura/>que fazen simonías</l>
+                    <l xml:id="L114">non serán ende menos, <caesura/>por las çapatas mías!:</l>	
+                    <l xml:id="L115">¡el plomo regalado <caesura/>bevrán todos los días!</l>		
+                    <l xml:id="L116">—¡non creo que gusanos	 <caesura/>críen en las enzías!—.</l>
+                </lg>
+            
+                <lg n="2363" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L117">Mantiene doña <term ref="https://vocabularyserver.com/alexandre/index.php?tema=570" type="religioso">Ira</term> 
+                    <caesura/>la terçera posada,</l>
+                    <l xml:id="L118">con coraçón ravioso, <caesura/>de refiertas cargada,</l>		
+                    <l xml:id="L119">royendo las estacas, <caesura/>la visïón turbada:</l>		
+                    <l xml:id="L120">non querié que’l dixiesse <caesura/>omne ninguno nada.</l>
+                </lg>
+            
+                <lg n="2364" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L121">Está tanto de çiega <caesura/>que non sabe qué’s diga,</l>
+                    <l xml:id="L122">diziendo villanía, <caesura/>alueyas e nemiga,</l>		
+                    <l xml:id="L123">como se acaeçe <caesura/>si alguno la castiga:</l>		
+                    <l xml:id="L124">¡tórnal’ como si fuesse <caesura/>su mortal enemiga!</l>
+                </lg>
+            
+                <lg n="2365" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L125">Estával’a los piedes <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=631" type="religioso">Herodes</persName> su crïado,</l>
+                    <l xml:id="L126">el que ovo con ira <caesura/>a los niños matado.</l>		
+                    <l xml:id="L127">Dával’ muy grandes muessos <caesura/>al siniestro costado</l>	
+                    <l xml:id="L128">don <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=648" type="religioso">Lamet</persName>, 
+                    el que ovo <caesura/>a su guïon matado.</l>
+                </lg>
+            
+                <lg n="2366" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L129">Quiere la cosa mala <caesura/>quebrar por el despecho</l>
+                    <l xml:id="L130">que aquel barón bueno, <caesura/>don 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=649" type="religioso">Job</persName>, le ovo fecho.</l>		
+                    <l xml:id="L131">Qui se desdiz’atanto <caesura/>non cadrá otro pecho:</l>		
+                    <l xml:id="L132">¡nunca contendrá tanto <caesura/>que aya ende derecho!</l>
+                </lg>
+            
+                <lg n="2367" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L133">Pare esta diablessa <caesura/>un fijo träidor:</l>
+                    <l xml:id="L134"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=571" type="religioso">Odïo</term>, 
+                    el que vieda <caesura/>Dios el Nuestro Señor.</l>	
+                    <l xml:id="L135">De todos los pecados <caesura/>esti es el mayor:</l>		
+                    <l xml:id="L136">¡el que muere con él <caesura/>contéçel’ grant error!</l>
+                </lg>
+            
+                <lg n="2368" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L137">Esta faz’a los omnes <caesura/>omezidios obrar;</l>
+                    <l xml:id="L138">fázeles a las madres <caesura/>a los fijos matar;</l>		
+                    <l xml:id="L139">esta faz’ las iglesias <caesura/>sagradas vïolar;</l>		
+                    <l xml:id="L140">sabe a los perlados <caesura/>de mesura sacar.</l>
+                </lg>
+            
+                <lg n="2369" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L141">Quando otri non puede <caesura/>ferir nin alcançar,</l>
+                    <l xml:id="L142">quïere a sí misma <caesura/>con su mano matar:</l>		
+                    <l xml:id="L143">¡de tan mal enemigo, <caesura/>tan malo de rancar,</l>		
+                    <l xml:id="L144">el que salvó el mundo <caesura/>nos deñe emparar!</l>
+                </lg>
+            
+                <lg n="2370" type="terástico" met="4x14" rhyme="AAAA" ana="#diosespaganos">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=207" subtype="clasico">Dioses paganos</note>
+                    <l xml:id="L145">Assí quiso don <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=650" type="clasico">Pluto</persName> 
+                    <caesura/>su palaçio complir,</l>
+                    <l xml:id="L146">que non podiesse omne <caesura/>por nulla parte fuir.</l>	
+                    <l xml:id="L147">Paró otras barreras <caesura/>pora omne embaír,</l>		
+                    <l xml:id="L148">que de una o otra <caesura/>non podiesse guarir.</l>
+                </lg>
+            
+                <lg n="2371" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L149">Muchos son que <term ref="https://vocabularyserver.com/alexandre/index.php?tema=565" type="religioso">Cobdiçia</term> 
+                    <caesura/>non los puede vençer;</l>
+                    <l xml:id="L150">encara non los puede <caesura/>
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=567" type="religioso">Envidia</term> corromper;</l>		
+                    <l xml:id="L151">de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=570" type="religioso">Ira</term> 
+                    non se temen: <caesura/>sábense bien defender;</l>	
+                    <l xml:id="L152">mas puédelos en cabo 
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=572" type="religioso">Luxuria</term> cofonder.</l>
+                </lg>
+            
+                <lg n="2372" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L153">Por ende el pecado, <caesura/>sabidor de todo mal,</l>
+                    <l xml:id="L154">pobló a <term ref="https://vocabularyserver.com/alexandre/index.php?tema=572" type="religioso">Luxurïa</term> 
+                    <caesura/>en el quarto fastial:</l>		
+                    <l xml:id="L155">suzia e descarnida, <caesura/>más ardiente que cal,</l>		
+                    <l xml:id="L156">con su poder corrompe <caesura/>todo el mercadal.</l>
+                </lg>
+            
+                <lg n="2373" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L157">Sedié acompañada <caesura/>de suzias crïazones:</l>
+                    <l xml:id="L158">forniçios, adulterios <caesura/>e otras poluçiones,</l>		
+                    <l xml:id="L159">el viçio sodomítico <caesura/>con sus abusïones,</l>		
+                    <l xml:id="L160">muchas otras orreças <caesura/>tan malas o peores.</l>
+                </lg>
+            
+                <lg n="2374" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L161">Como son los viçïos <caesura/>de diversas maneras,</l>
+                    <l xml:id="L162">arden en sus posadas <caesura/>otras tantas fogueras:</l>			
+                    <l xml:id="L163">fierven sobre los fuegos <caesura/>otras tantas calderas</l>		
+                    <l xml:id="L164">en que arden e cuezen <caesura/>las almas forniqueras.</l>
+                </lg>
+            
+                <lg n="2375" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L165">Saco ende los casados, <caesura/>que son a bendiçión,</l>
+                    <l xml:id="L166">si lealtat mantienen <caesura/>fembra con su varón.</l>		
+                    <l xml:id="L167">Allí queman e tríbulan <caesura/>quantas fallidas son,</l>	
+                    <l xml:id="L168">sinon las que escusa <caesura/>la vera confessión.</l>
+                </lg>
+            
+                <lg n="2376" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L169">Otro viçio que llama <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=651" type="religioso">san Paulo</persName> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=573" type="religioso">Inmundiçia</term>,</l>
+                    <l xml:id="L170">este prende del fumo <caesura/>déçima e promiçia:</l>		
+                    <l xml:id="L171">aún de lo que finca <caesura/>que non toma 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=565" type="religioso">Cobdiçia</term></l>	
+                    <l xml:id="L172">prende raçión doblada <caesura/>a plenera justiçia.</l>
+                </lg>
+            
+                <lg n="2377" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L173">Están ý rostrituertas, <caesura/>fierament’afumadas,</l>
+                    <l xml:id="L174">muchas barvas que fueron <caesura/>tenidas por honradas.</l>	
+                    <l xml:id="L175">Otras están desnudas, <caesura/>que fueron perjuradas:</l> 	
+                    <l xml:id="L176">estas tienen las lenguas <caesura/>de gusanos cargadas.</l>
+                </lg>
+            
+                <lg n="2378" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L177">Tienen el lugar quinto <caesura/>
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=574" type="religioso">Gola</term> e 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=575" type="religioso">Glotonía</term>:</l>
+                    <l xml:id="L178">estas fazen al omne <caesura/>fer mucha villanía.</l>		
+                    <l xml:id="L179">Han con la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=572" type="religioso">Luxurïa</term> 
+                    <caesura/>estas su cofadría:</l>		
+                    <l xml:id="L180">las unas sin la otra <caesura/>nunca vivrién un día.</l>
+                </lg>
+            
+                <lg n="2379" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L181"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=574" type="religioso">Gola</term> está en medio, 
+                    <caesura/>sos dedos relamiendo;</l>
+                    <l xml:id="L182">allent’ la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=575" type="religioso">Glotonía</term>, 
+                    <caesura/>regüeldos revertiendo;</l>	
+                    <l xml:id="L183">allende la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=576" type="religioso">Beudez</term>, 
+                    <caesura/>tornando e beviendo,</l>		
+                    <l xml:id="L184">los miembros con vergüença <caesura/>descubiertos yaziendo.</l>
+                </lg>
+            
+                <lg n="2380" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L185">Toda su mantenençia <caesura/>traen con los garçones,</l>
+                    <l xml:id="L186">con mugieres livianas <caesura/>que non aman sermones,</l>	
+                    <l xml:id="L187">comiendo a escuso <caesura/>de noche a los tizones,</l>	
+                    <l xml:id="L188">yaziendo por tavernas, <caesura/>tastando los tapones.</l>
+                </lg>
+            
+                <lg n="2381" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L189">Non llamo glotonía <caesura/>comer omne fartura</l>
+                    <l xml:id="L190">en horas convinientes <caesura/>por tener la natura,</l>		
+                    <l xml:id="L191">mas comer sobejano <caesura/>e bever sin mesura;</l>
+                    <l xml:id="L192">estos dizen los físicos <caesura/>que dañan la natura.</l>
+                </lg>
+            
+                <lg n="2382" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L193">Si <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=628" type="religioso">Adam</persName> 
+                    non oviesse <caesura/>estado tan glotón,</l>
+                    <l xml:id="L194">non oviera <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=630" type="religioso">Messías</persName> 
+                    <caesura/>presa tal passïón;</l>		
+                    <l xml:id="L195">si <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=654" type="religioso">Lot</persName> 
+                    tanto beviesse <caesura/>como manda 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=652" type="artistico">Catón</persName>,</l>		
+                    <l xml:id="L196">non farié en sus fijas <caesura/>fijos tan sin razón.</l>
+                </lg>
+            
+                <lg n="2383" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L197">Los omnes que se vezan <caesura/>tal vida mantener</l>
+                    <l xml:id="L198">son malos ganadores: <caesura/>non lo han dó aver;</l>		
+                    <l xml:id="L199">tórnanse a furtar, <caesura/>iglesias derromper:</l>		
+                    <l xml:id="L200">¡han por tal manera <caesura/>las almas a perder!</l>
+                </lg>
+            
+                <lg n="2384" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L201">Aman mucho los dados <caesura/>e han a descreer;</l>
+                    <l xml:id="L202">nunca van a iglesia <caesura/>penitençia prender:</l>		
+                    <l xml:id="L203">¡mucho más les valdrié <caesura/>que fuessen por naçer</l>	
+                    <l xml:id="L204">o seer bestias mudas <caesura/>que tal vida fazer!</l>
+                </lg>
+            
+                <lg n="2385" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L205">Otros son por el mundo <caesura/>que son tan venterneros</l>
+                    <l xml:id="L206">que, por comer a solas, <caesura/>entran en los çilleros:</l>	
+                    <l xml:id="L207">non parten con los pobres <caesura/>nin con los compañeros;</l>
+                    <l xml:id="L208">alçan lo que sobra <caesura/>fuerte en los bolseros.</l>
+                </lg>
+            
+                <lg n="2386" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L209">Estos son con el dives <caesura/>en 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term> fondidos:</l>
+                    <l xml:id="L210">teniendo agua çerca, <caesura/>yazen de set perdidos;</l>	
+                    <l xml:id="L211">veyendo los comeres, <caesura/>están muy desfambridos,</l>	
+                    <l xml:id="L212">que querrién seer muertos <caesura/>más que seer naçidos.</l>
+                </lg>
+            
+                <lg n="2387" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L213">De viçio tan villano <caesura/>devémosnos guardar:</l>
+                    <l xml:id="L214"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=578" type="religioso">Acçidia</term> 
+                    es su nombre; <caesura/>suele mucho dañar.</l>		
+                    <l xml:id="L215">Esta suele al omne <caesura/>venir con grant pesar:</l>		
+                    <l xml:id="L216">por tal duelo que faze, <caesura/>ha omne a errar.</l>
+                </lg>
+            
+                <lg n="2388" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L217">Veemos muchas vezes <caesura/>esto acaeçer:</l>
+                    <l xml:id="L218">que, quando omne pierde <caesura/>pariente o aver,</l>	
+                    <l xml:id="L219">omne que bien lo quier’ <caesura/>tanto’s puede doler</l>	
+                    <l xml:id="L220">que viene a sazón <caesura/>que quiere recreer.</l>
+                </lg>
+            
+                <lg n="2389" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L221">Derraiga e descree, <caesura/>e déxase morir.</l>
+                    <l xml:id="L222">Presto es el dïablo <caesura/>e vien’lo reçebir;</l>		
+                    <l xml:id="L223">liévalo al <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term>; 
+                    <caesura/>mándalo bien servir:</l>		
+                    <l xml:id="L224">¡faz’lo en la resina <caesura/>e en plomo bollir!</l>
+                </lg>
+            
+                <lg n="2390" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=656" subtype="clasico">Personajes mitológicos</note>
+                    <l xml:id="L225">Miémbrame que solemos <caesura/>leer en un 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=579" type="artistico">actor</term></l>
+                    <l xml:id="L226">que tornó <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=657" type="clasico">Nïobé</persName> 
+                    <caesura/>en piedra por dolor;</l>		
+                    <l xml:id="L227"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=658" type="clasico">Felis</persName> 
+                    tornó en árvol <caesura/>por el su buen señor.</l>		
+                    <l xml:id="L228">¡Seméjanme errados <caesura/>de Dios Nuestro Señor!</l>
+                </lg>
+            
+                <lg n="2391" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales" >
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=656" subtype="clasico">Personajes mitológicos</note>
+                    <l xml:id="L229">Mas asmo otra cosa, <caesura/>que cueido ý pecar:</l>
+                    <l xml:id="L230">otra guisa se deve <caesura/>esto enterpretar,</l>		
+                    <l xml:id="L231">que yo creer non puedo <caesura/>que pudiesse estar</l>	
+                    <l xml:id="L232">que pudiessen los omnes <caesura/>en tal cosa tornar.</l>
+                </lg>
+            
+                <lg n="2392" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=656" subtype="clasico">Personajes mitológicos</note>
+                    <l xml:id="L233">Non quiso el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=579" type="artistico">actor</term> 
+                    <caesura/>dezir que son dañados,</l>
+                    <l xml:id="L234">que los que a <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term> 
+                    <caesura/>son una vez levados</l>		
+                    <l xml:id="L235">dixo por encubierta <caesura/>que son en ál tornados;</l>	
+                    <l xml:id="L236">assaz puede el omne <caesura/>dezir que son dañados.</l>
+                </lg>
+            
+                <lg n="2393" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=653" subtype="religioso">Destrucción de Sodoma y Gomorra</note>
+                    <l xml:id="L237">Sé que querrá alguno <caesura/>darme un 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=580" type="artistico">estribot’</term>:</l>
+                    <l xml:id="L238">querrame dar <term ref="https://vocabularyserver.com/alexandre/index.php?tema=568" type="artistico">exemplo</term> 
+                    <caesura/>de <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=655" type="religioso">la muger de Lot</persName>.</l>	
+                    <l xml:id="L239">Assaz es pora esso <caesura/>un contrarïo mot’,</l>		
+                    <l xml:id="L240">mas podié terminarlo <caesura/>un cativo arlot’.</l>
+                </lg>
+            
+                <lg n="2394" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L241">Sobre todos, del sieglo <caesura/>nos devemos guardar,</l>
+                    <l xml:id="L242">del que sabe sin lança <caesura/>e sin espada matar:</l>		
+                    <l xml:id="L243">quando omne se cuida <caesura/>más seguro estar,</l>	
+                    <l xml:id="L244">entonçe suele él <caesura/>las sus redes gitar.</l>
+                </lg>
+            
+                <lg n="2395" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L245">Muchos son que se suelen <caesura/>de los viçios guardar:</l>
+                    <l xml:id="L246">en fechos e en dichos <caesura/>se guardan de pecar;</l>		
+                    <l xml:id="L247">non los podrié en nada <caesura/>omne escatimar,</l>	
+                    <l xml:id="L248">mas suele <term ref="https://vocabularyserver.com/alexandre/index.php?tema=581" type="religioso">Vanagloria</term> 
+                    <caesura/>en ellos habitar.</l>
+                </lg>
+            
+                <lg n="2396" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L249">Son pocos que la sepan <caesura/>sentir nin coñoçer;</l>
+                    <l xml:id="L250">son pocos que en ella <caesura/>non ayan que veer.</l>		
+                    <l xml:id="L251">Sabe con los mayores <caesura/>sus cubiertas traer,</l>		
+                    <l xml:id="L252">ca en los viles omnes <caesura/>nunca puede caber.</l>
+                </lg>
+            
+                <lg n="2397" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L253">Si un poco quisierdes <caesura/>saber mi entender,</l>
+                    <l xml:id="L254">mejor vos lo querría <caesura/>dezir e esponer.</l>		
+                    <l xml:id="L255">Sábenlo por ventura <caesura/>algunos entender,</l>		
+                    <l xml:id="L256">por onde nos devemos <caesura/>algún poco retener.</l>
+                </lg>
+            
+                <lg n="2398" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L257">El dïablo antiguo, <caesura/>que nunca puede dormir,</l>
+                    <l xml:id="L258">siempre anda bullendo <caesura/>pora nos deçebir.</l>	
+                    <l xml:id="L259">Quántas trae de redes <caesura/>podiésteslo oír</l>		
+                    <l xml:id="L260">si quisiestes en ello <caesura/>las orejas abrir.</l>
+                </lg>
+            
+                <lg n="2399" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L261">Aguisa a los unos <caesura/>que sean cobdiçiosos;</l>
+                    <l xml:id="L262">faz’ los otros irados, <caesura/>los otros envidiosos,</l>		
+                    <l xml:id="L263">los otros venterneros, <caesura/>los otros luxuriosos;</l>		
+                    <l xml:id="L264">embébdalos e mátalos; <caesura/>con tales, açedosos.</l>
+                </lg>
+            
+                <lg n="2400" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L265">Los buenos e los santos, <caesura/>que non quieren fallir,</l>
+                    <l xml:id="L266">que oran e alimosnan <caesura/>e piensan de servir,</l>		
+                    <l xml:id="L267">saben con sus sermones <caesura/>los otros convertir.</l>	
+                    <l xml:id="L268">¡Pésal’ tanto con esto <caesura/>que se quiere morir!</l>
+                </lg>
+            
+                <lg n="2401" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L269">Sabe un letüario <caesura/>a estos bien guisar:</l>
+                    <l xml:id="L270">pégaseles quediello <caesura/>al siniestro quixar;</l>		
+                    <l xml:id="L271">faz’al que es buen omne	 <caesura/>del buen fecho membrar,</l>
+                    <l xml:id="L272">tanto que se deleita <caesura/>en ello glorïar.</l>
+                </lg>
+            
+                <lg n="2402" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L273">Fázelo a los pueblos <caesura/>bendezir e laudar:</l>
+                    <l xml:id="L274">muévelo el mal viento, <caesura/>fázelo levantar.</l>	
+                    <l xml:id="L275">Fázelo el dïablo <caesura/>en sequera nadar:</l>		
+                    <l xml:id="L276">piensa cómo lo faga, <caesura/>si pudiesse, pecar.</l>
+                </lg>
+            
+                <lg n="2403" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L277">Por esta vía era <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=659" type="religioso">Zózimas</persName> engañado,</l>
+                    <l xml:id="L278">quando tenié que era <caesura/>en bondat acabado:</l>		
+                    <l xml:id="L279">fuera que lo querié <caesura/>Dios tornar en so estado,</l>	
+                    <l xml:id="L280">si non, todo su lazerio <caesura/>avrié mal empleado.</l>
+                </lg>
+            
+                <lg n="2404" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L281">Este dïablo suele <caesura/>al omne embeudar,</l>
+                    <l xml:id="L282">que non aya poder <caesura/>d’escuentra Dios tornar.	</l>
+                    <l xml:id="L283">Esti fizo al <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=227" type="religioso">rëy 
+                    <caesura/>de <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=402" type="enciclopedico">Babilón</placeName></persName> 
+                    errar:</l>		
+                    <l xml:id="L284">por end’ovo grant tiempo <caesura/>con las bestias a andar.</l>
+                </lg>
+            
+                <lg n="2405" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=563" subtype="religioso">Pecados capitales</note>
+                    <l xml:id="L285">Estos son los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=563" type="religioso">siet’ viçios</term> 
+                    <caesura/>que dizen prinçipales;</l>
+                    <l xml:id="L286">estos son los pecados <caesura/>que dizen criminales;</l>		
+                    <l xml:id="L287">estos siet’ por el mundo <caesura/>fazen todos los males:</l>
+                    <l xml:id="L288">¡muchas barvas honradas <caesura/>lievan en sos dogales!</l>
+                </lg>
+            
+                <lg n="2406" type="terástico" met="4x14" rhyme="AAAA" ana="#pecadoscapitales #soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L289">E todos estos tiene <caesura/>la 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=582" type="religioso">Sobervia</term> ligados:</l>
+                    <l xml:id="L290">todos son sos ministros, <caesura/>que traen sus mandados.</l>
+                    <l xml:id="L291">Ella es la reína, <caesura/>ellos son sus crïados:</l>		
+                    <l xml:id="L292">a todos siet’ los tien’ <caesura/>ricament’ doctrinados.</l>
+                </lg>
+            
+                <lg n="2407" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L293">Por esto en la cuenta <caesura/>non es ella echada,</l>
+                    <l xml:id="L294">porque es de los viçios <caesura/>emperadriz llamada.</l>
+                    <l xml:id="L295">Ella les da a todos <caesura/>govierno e soldada:</l>		
+                    <l xml:id="L296">por egualar con estos <caesura/>es cosa desaguisada.</l>
+                </lg>
+            
+                <lg n="2408" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L297">Sobre todos los otros <caesura/>puja el su ostal:</l>
+                    <l xml:id="L298">tiene que en el mundo <caesura/>non ave su egual.</l>		
+                    <l xml:id="L299">Anda en grant cavallo <caesura/>por medio del mercadal,</l>	
+                    <l xml:id="L300">desdeñando a todos <caesura/>e diziéndoles mal.</l>
+                </lg>
+            
+                <lg n="2409" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=213" subtype="religioso">Caída de Lucifer</note> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=214" subtype="religioso">Adán y Eva</note> 
+                    <l xml:id="L301" ana="#caídalucifer">Ándase alabando <caesura/>que, si non fues’ por ella,</l>
+                    <l xml:id="L302" ana="#caídalucifer">que Dios nunca oviera <caesura/>de 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=660" type="religioso">Luçifer</persName> querella,</l>	
+                    <l xml:id="L303" ana="#adanyeva"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=628" type="religioso">Adam</persName> 
+                    tan malmetido <caesura/>non fuera a la pella</l>		
+                    <l xml:id="L304" ana="#adanyeva">nin tan bien non serié <caesura/>de 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=661" type="religioso">Ester</persName> la punçella.</l>
+                </lg>
+            
+                <lg n="2410" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L305">A omnes e a ángeles <caesura/>está dando refierta;</l>
+                    <l xml:id="L306">tiene con grant coraje <caesura/>la fruente descubierta.</l>
+                    <l xml:id="L307">Non sabe so desdén <caesura/>sobre quí lo revierta:</l>		
+                    <l xml:id="L308">empeitra su cavallo <caesura/>a quiquier’ que açierta.</l>
+                </lg>
+            
+                <lg n="2411" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L309">Que mucho yo vos quiera <caesura/>de los viçios dezir,</l>
+                    <l xml:id="L310">podédeslo vós todos <caesura/>mesurar e comedir.</l>		
+                    <l xml:id="L311">Quiero, si quisïerdes <caesura/>atender e oír,</l>			
+                    <l xml:id="L312">dexar de lo de fuera, <caesura/>del 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=647" type="artistico">real</term> escrevir.</l>
+                </lg>
+            
+                <lg n="2412" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L313">En medio del 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term> 
+                    <caesura/>fumea un fornaz;</l>
+                    <l xml:id="L314">arde días e noches: <caesura/>nunca flama non faz’.</l>		
+                    <l xml:id="L315">Allí está el rëy, <caesura/>enemigo de paz,</l>		
+                    <l xml:id="L316">faziendo a las almas <caesura/>juegos que non les plaz’.</l>
+                </lg>
+            
+                <lg n="2413" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L317">Allí arden las almas <caesura/>por el mal que fizieron,</l>
+                    <l xml:id="L318">unas más, otras menos, <caesura/>segunt que mereçieron:</l>
+                    <l xml:id="L319">sienten menos de pena <caesura/>las que menos fallieron;</l>
+                    <l xml:id="L320">sufren mayor lazerio <caesura/>las que peor bivieron.</l>
+                </lg>
+            
+                <lg n="2414" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L321">Una cosa es fórnaz <caesura/>que siempre es ardiente,</l>
+                    <l xml:id="L322">mas non sienten sus penas <caesura/>todas igualmïente.</l>	
+                    <l xml:id="L323">Cunte como a los omnes <caesura/>con el sol muy caliente:</l>
+                    <l xml:id="L324">unos ende han quexa, <caesura/>otros non meten miente.</l>
+                </lg>
+            
+                <lg n="2415" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L325">Ardiendo en las flamas <caesura/>tremen de grant frïura;</l>
+                    <l xml:id="L326">yaziendo en las nieves <caesura/>mueren de calentura.</l>	
+                    <l xml:id="L327">Non han en los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term> 
+                    <caesura/>ninguna tempradura,</l>	
+                    <l xml:id="L328">ca tien’ cada rincón <caesura/>avondo de rencura.</l>
+                </lg>
+            
+                <lg n="2416" type="terástico" met="4x14" rhyme="AAAA">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=656" subtype="clasico">Personajes mitológicos</note>
+                    <l xml:id="L329">Dize que yaze 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=662" type="clasico">Tiçio</persName> 
+                    <caesura/>con essa cofadría,</l>
+                    <l xml:id="L330">al que comen los bueitres <caesura/>doze vezes al día;</l>	
+                    <l xml:id="L331">doze vezes lo comen <caesura/>e doz’ vezes se cría:</l>	
+                    <l xml:id="L332">¡si una vez finasse, <caesura/>avrié grant mejoría!</l>
+                </lg>
+            
+                <lg n="2417" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L333">Podrié más rafezmente <caesura/>essas penas sofrir</l>
+                    <l xml:id="L334">si sopiesse en cabo <caesura/>que podrié de ý exir,</l>		
+                    <l xml:id="L335">mas esta es la cueita: <caesura/>que non podrá morir</l>		
+                    <l xml:id="L336">nin podrá de las penas <caesura/>nunca jamás sallir.</l>
+                </lg>
+            
+                <lg n="2418" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L337">Estas nuestras fogueras <caesura/>amargan como fiel:</l>
+                    <l xml:id="L338">seríen contra essas <caesura/>más dulçes que la miel.</l>	
+                    <l xml:id="L339">Devrié omne por Dios <caesura/>dar la una pïel,</l>	
+                    <l xml:id="L340">que fuesse rogador <caesura/>al Señor 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=663" type="religioso">san Miguel</persName>.</l>
+                </lg>
+            
+                <lg n="2419" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L341">Están días e noches <caesura/>maldiziendo su fado;</l>
+                    <l xml:id="L342">el que les da las penas <caesura/>con esto es pagado:</l>	
+                    <l xml:id="L343">¡las mesquinas que arden <caesura/>avrienle muy grant grado,</l>
+                    <l xml:id="L344">solo que las dexasse <caesura/>tornar del otro cabo!</l>
+                </lg>
+            
+                <lg n="2420" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L345">Las almas de los niños <caesura/>que non son bateadas,</l>
+                    <l xml:id="L346">que son por el Pecado <caesura/>Original dapnadas,</l>		
+                    <l xml:id="L347">non arden con las otras, <caesura/>están más apartadas,</l>	
+                    <l xml:id="L348">pero en grant tiniebra, <caesura/>de luz desfëuzadas.</l>
+                </lg>
+            
+                <lg n="2421" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L349">Assaz es fiera pena <caesura/>—non coñosco mayor—</l>
+                    <l xml:id="L350">de nunca veer omne <caesura/>la faz del Crïador:</l>		
+                    <l xml:id="L351">¡como al que la vee <caesura/>es gloria e dulçor,</l>		
+                    <l xml:id="L352">assí es a los otros <caesura/>pena e grant dolor!</l>
+                </lg>
+            
+                <lg n="2422" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L353">Los justos otros tiempos <caesura/>yazién en es’ lugar,</l>
+                    <l xml:id="L354">ante que los uviasse <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=630" type="religioso">Jesucristo</persName> salvar;</l>		
+                    <l xml:id="L355">mas quiso, ¡aleluya!, <caesura/>entonçe’s ençerrar:</l>		
+                    <l xml:id="L356">¡nunca más lo esperen, <caesura/>ca bien pueden badar!</l>
+                </lg>
+            
+                <lg n="2423" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L357">Que mucho vos queramos <caesura/>del 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=427" type="religioso">Infierno</term> dezir,</l>
+                    <l xml:id="L358">non podriemos el diezmo <caesura/>de so mal 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=76">escrevir</term>;</l>	
+                    <l xml:id="L359">¡mas devemos a Dios <caesura/>la su merçed pedir,</l>		
+                    <l xml:id="L360">nunca nos lo dexe <caesura/>ensayar nin sentir!</l>
+                </lg>
+            </lg>
+        </body>
+    </text></TEI>

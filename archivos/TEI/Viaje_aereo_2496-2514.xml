@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="viaje_aereo" ref="https://vocabularyserver.com/alexandre/index.php?tema=590">Viaje aéreo</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                
+                <lg n="2496" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L1"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=618" type="alexandre">Alexandre</persName> 
+                    el bueno, <caesura/>potestat sin frontera,</l>
+                    <l xml:id="L2">asmó una cosa <caesura/>yendo por la carrera:</l>			
+                    <l xml:id="L3">cómo aguisarié <caesura/>poyo o escalera</l>		
+                    <l xml:id="L4">por veer todo’l mundo <caesura/>cómo yaz’o quál era.</l>
+            </lg>
+                
+                <lg n="2497" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L5">Fizo prender dos <term ref="https://vocabularyserver.com/alexandre/index.php?tema=283" type="enciclopedico">grifos</term>, 
+                    <caesura/>que son <term ref="https://vocabularyserver.com/alexandre/index.php?tema=282" type="enciclopedico">aves</term> valientes.</l>
+                    <l xml:id="L6">Avezolos a carnes <caesura/>saladas e rezientes;</l>		
+                    <l xml:id="L7">tóvolos muy viçiosos <caesura/>de carnes convinientes</l>	
+                    <l xml:id="L8">fasta que se fizieron <caesura/>gruessos e muy valientes.</l>
+                </lg>
+                
+                <lg n="2498" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L9">Fizo fer una <term ref="https://vocabularyserver.com/alexandre/index.php?tema=594" type="artistico">capa 
+                    <caesura/>de cuero</term> muy sovado,</l>
+                    <l xml:id="L10">quanto cobrié un omne <caesura/>a anchura posado.</l>	
+                    <l xml:id="L11">Ligola a los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=283" type="enciclopedico">grifos</term> 
+                    <caesura/>con un firme <term ref="https://vocabularyserver.com/alexandre/index.php?tema=596" type="artistico">filado</term>,</l>		
+                    <l xml:id="L12">que non podrié falsar <caesura/>por un omne pesado.</l>
+                </lg>
+                
+                <lg n="2499" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L13">Fízoles el conducho <caesura/>por tres días toller,</l>
+                    <l xml:id="L14">por amor que oviessen <caesura/>talento de comer.</l>	
+                    <l xml:id="L15">Fízose él demientre <caesura/>en el 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=594" type="artistico">cuero</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=597" type="artistico">coser</term>,</l>		
+                    <l xml:id="L16">la cara descubierta, <caesura/>que pudiesse veer.</l>
+                </lg>
+                
+                <lg n="2500" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L17">Priso en una <term ref="https://vocabularyserver.com/alexandre/index.php?tema=595" type="artistico">piértega</term> 
+                    <caesura/>la carne espetada,</l>
+                    <l xml:id="L18">en medio de los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=283" type="enciclopedico">grifos</term>, 
+                    <caesura/>pero bien alongada:</l>	
+                    <l xml:id="L19">los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=283" type="enciclopedico">grifos</term> 
+                    por prenderla <caesura/>dieron luego volada;</l>	
+                    <l xml:id="L20">cuidávanse çevar, <caesura/>mas non les valió nada.</l>
+                </lg>
+                
+                <lg n="2501" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L21">Quanto ellos volavan, <caesura/>él tanto se erzía:</l>
+                    <l xml:id="L22">el rëy <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=618" type="alexandre">Alexandre</persName> 
+                    <caesura/>toda vía sobía.</l>			
+                    <l xml:id="L23">A las vezes alçava, <caesura/>a las vezes premía:</l>		
+                    <l xml:id="L24">allá ivan los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=283" type="enciclopedico">grifos</term> 
+                    <caesura/>do el rëy quería.</l>
+                </lg>
+                
+                <lg n="2502" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L25">Cuitávalos la fambre <caesura/>que avién encargada:</l>
+                    <l xml:id="L26">contendién por çevarse, <caesura/>mas non les valié nada.</l>	
+                    <l xml:id="L27">Volavan toda vía <caesura/>e cumplién su jornada:</l>	
+                    <l xml:id="L28">era el rey traspuesto <caesura/>de la su albergada.</l>
+                </lg>
+                
+                <lg n="2503" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L29">Alçávales la carne <caesura/>quando querié sobir;</l>
+                    <l xml:id="L30">ívala declinando <caesura/>quando querié deçir:</l>		
+                    <l xml:id="L31">do veyén ir la carne, <caesura/>allá ivan seguir</l>		
+                    <l xml:id="L32">—¡non los riepto, ca fambre <caesura/>mala es de sofrir!—.</l>
+                </lg>
+                
+                <lg n="2504" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L33">Tanto pudo el rëy <caesura/>a las nuves pujar:</l>
+                    <l xml:id="L34">veyé <term ref="https://vocabularyserver.com/alexandre/index.php?tema=234" type="enciclopedico">montes</term> 
+                    e <term ref="https://vocabularyserver.com/alexandre/index.php?tema=598" type="enciclopedico">valles</term> 
+                    <caesura/>de yus’ de sí estar;</l>		
+                    <l xml:id="L35">veyé entrar los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=231" type="enciclopedico">ríos</term> 
+                    <caesura/>todos en alta <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mar</term>,</l>		
+                    <l xml:id="L36">mas cómo yazié o non <caesura/>nunca lo pudo asmar.</l>
+                </lg>
+                
+                <lg n="2505" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L37">Veyé en quáles <term ref="https://vocabularyserver.com/alexandre/index.php?tema=599" type="enciclopedico">puertos</term> 
+                    <caesura/>son angostos los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mares</term>;</l>
+                    <l xml:id="L38">veyé grandes peligros <caesura/>en muchos de lugares;</l>	
+                    <l xml:id="L39">veyé muchas <term ref="https://vocabularyserver.com/alexandre/index.php?tema=600" type="enciclopedico">galeas</term> 
+                    <caesura/>dar en los peñiscales;</l>		
+                    <l xml:id="L40">otras sallir a <term ref="https://vocabularyserver.com/alexandre/index.php?tema=599" type="enciclopedico">puerto</term>, 
+                    <caesura/>adobar de yantares.</l>
+                </lg>
+                
+                <lg n="2506" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L41">Mesuró toda
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=246" type="enciclopedico">África</placeName> 
+                    <caesura/>cómo yaz’assentada,</l>
+                    <l xml:id="L42">por quál parte serié <caesura/>más rafez la entrada:</l>		
+                    <l xml:id="L43">luego vío por 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=602" type="enciclopedico">Siria</placeName> 
+                    <caesura/>aver mejor passada,</l>		
+                    <l xml:id="L44">ca avié grant sallida <caesura/>e larguera entrada.</l>
+                </lg>
+                
+                <lg n="2507" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L45">Luengo serié de todo <caesura/>quanto vío 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=81" type="artistico">contar</term>:</l>
+                    <l xml:id="L46">non podrié a lo medio <caesura/>el día avondar;</l>		
+                    <l xml:id="L47">mas en una hora <caesura/>sopo mientes parar</l>		
+                    <l xml:id="L48">lo que todos abades <caesura/>non lo sabrién asmar.</l>
+                </lg>
+                
+                <lg n="2508" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L49">Solémoslo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=547" type="artistico">leer</term>, 
+                    <caesura/>diz’lo la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=147" type="artistico">escriptura</term>,</l>
+                    <l xml:id="L50">que es llamado mundo <caesura/>el omne por figura.</l>	
+                    <l xml:id="L51">Qui comedir quisier’ <caesura/>e asmar la fechura</l>		
+                    <l xml:id="L52">entendrá que es bien <caesura/>razón sin depresura:</l>
+                </lg>
+                
+                <lg n="2509" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=248" subtype="enciclopedico">Astronomía</note>
+                    <l xml:id="L53"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=426" type="enciclopedico">Asïa</placeName> 
+                    es el cuerpo, <caesura/>segunt mio esçïent’;</l>
+                    <l xml:id="L54" ana="#astronomía"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=254" type="enciclopedico">Sol</term> 
+                    e <term ref="https://vocabularyserver.com/alexandre/index.php?tema=255" type="enciclopedico">Luna</term>, los ojos, 
+                    <caesura/>que naçen de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=549" type="enciclopedico">Orient’</term>;</l>		
+                    <l xml:id="L55">los braços son la cruz <caesura/>del Rëy Omnipotent’,</l>		
+                    <l xml:id="L56">que fue muerto en 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=426" type="enciclopedico">Asia</placeName> 
+                    <caesura/>por salut de la gent’.</l>
+                </lg>
+                
+                <lg n="2510" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L57">La pierna que deçende <caesura/>del siniestro costado</l>
+                    <l xml:id="L58">es el regno de 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=246" type="enciclopedico">África</placeName>, 
+                    <caesura/>por ella figurado.</l>		
+                    <l xml:id="L59">Toda la mandan <term ref="https://vocabularyserver.com/alexandre/index.php?tema=689" type="enciclopedico">moros</term>, 
+                    <caesura/>un pueblo renegado,</l>	
+                    <l xml:id="L60">que oran a 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=688" type="enciclopedico">Mafómat</persName>, <caesura/>un traedor provado.</l>
+                </lg>
+                
+                <lg n="2511" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L61">Es por la pierna diestra <caesura/>
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=245" type="enciclopedico">Ëuropa</placeName> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=77" type="artistico">notada</term>;</l>
+                    <l xml:id="L62">esta es más católica, <caesura/>de la fe más poblada;</l>		
+                    <l xml:id="L63">esta es de la diestra <caesura/>del Obispo santiguada:</l>	
+                    <l xml:id="L64">tienen <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=690" type="religioso">Petrus</persName> 
+                    e <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=651" type="religioso">Paulus</persName> 
+                    <caesura/>en ella su posada.</l>
+                </lg> 
+                
+                <lg n="2512" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L65">La carne es la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=233" type="enciclopedico">tierra</term>, 
+                    <caesura/>espessa e pesada;</l>
+                    <l xml:id="L66">el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mar</term> 
+                    es el pellejo <caesura/>que la tiene çercada;</l>		
+                    <l xml:id="L67">las venas son los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=231" type="enciclopedico">ríos</term> 
+                    <caesura/>que la tienen temprada:</l>	
+                    <l xml:id="L68">fazen diestro e siniestro <caesura/>mucha tornaviscada.</l>
+                </lg>
+                
+                <lg n="2513" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L69">Los huessos son las 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=399" type="enciclopedico">peñas</term> 
+                    <caesura/>que alçan los collados;</l>
+                    <l xml:id="L70">cabellos de cabeça, <caesura/>las yervas de los prados:</l>	
+                    <l xml:id="L71" ana="#animales">crían en esta tierra <caesura/>muchos malos 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=480" type="enciclopedico">venados</term>,</l>	
+                    <l xml:id="L72" ana="#animales">que son por majamiento <caesura/>de los nuestros pecados.</l>
+                </lg>
+                
+                <lg n="2514" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L73">Desque ovo el rëy <caesura/>la tierra bien 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=200" type="artistico">asmada</term>,</l>
+                    <l xml:id="L74">que ovo a su guisa <caesura/>la voluntat pagada,</l>		
+                    <l xml:id="L75">senestroles el çevo, <caesura/>guïolos de tornada;</l>		
+                    <l xml:id="L76">fue en poco de rato <caesura/>entre la su mesnada.</l>
+                </lg>
+            
+            </lg>
+        </body>
+    </text>
+</TEI>

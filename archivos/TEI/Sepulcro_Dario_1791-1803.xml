@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="sepul_dario" ref="https://vocabularyserver.com/alexandre/index.php?tema=703">Sepulcro de Darío</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+ 
+                <lg n="1791" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L1"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=300" type="alexandre">Apeles</persName>, en comedio, 
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obró</term> la 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">sepoltura</term>:</l>
+                    <l xml:id="L2">la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=112" type="artistico">tumba</term> de primero, 
+                    <caesura/>después la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=113" type="artistico">cobertura</term>;</l>		
+                    <l xml:id="L3">las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=115" type="artistico">basas</term> en tres guisas, 
+                    <caesura/>de comunal <term ref="https://vocabularyserver.com/alexandre/index.php?tema=47" type="artistico">mesura</term>,</l>	
+                    <l xml:id="L4">tant’eran bien <term ref="https://vocabularyserver.com/alexandre/index.php?tema=33" type="artistico">juntadas</term> 
+                    <caesura/>que non <term ref="https://vocabularyserver.com/alexandre/index.php?tema=368" type="artistico">pareçié juntura</term>.</l>
+                </lg>
+                
+                <lg n="1792" type="terástico" met="4x14" rhyme="AAAA" ana="#tiempo">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=248" subtype="enciclopedico">Astronomía</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=249" subtype="enciclopedico">Calendario</note>
+                    <l xml:id="L5"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=28" type="artistico">Debuxó</term> 
+                    el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">sepulcro</term> 
+                    <caesura/>a muy grandes <term ref="https://vocabularyserver.com/alexandre/index.php?tema=199" type="artistico">maravellas</term>:</l>
+                    <l xml:id="L6" ana="#astronomia">cuémo corre el 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=254" type="enciclopedico">Sol</term>, 
+                    <caesura/>la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=255" type="enciclopedico">Luna</term> 
+                    e las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=257" type="enciclopedico">estrellas</term>;</l>
+                    <l xml:id="L7" ana="#astronomia #calendario">cuémo passan las noches, <caesura/>los días en pues ellas;</l>	
+                    <l xml:id="L8" ana="#calendario">cuémo fazen las dueñas <caesura/>en 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=270" type="enciclopedico">mayo</term> las corellas;</l>
+                </lg>
+                
+                <lg n="1793" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L9">quáles <term ref="https://vocabularyserver.com/alexandre/index.php?tema=233" type="enciclopedico">tierras</term> 
+                    son buenas <caesura/>de panes e de vinos,</l>
+                    <l xml:id="L10">quáles <term ref="https://vocabularyserver.com/alexandre/index.php?tema=235" type="enciclopedico">pueblos</term> 
+                    son ricos <caesura/>e quáles son mesquinos,</l>
+                    <l xml:id="L11">de quál lugar a quál <caesura/>responden los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=240" type="enciclopedico">caminos</term>,</l>	
+                    <l xml:id="L12">cüémo han d’andar <caesura/>por ellos los peregrinos.</l>
+                </lg>
+                
+                <lg n="1794" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L13">Ý eran los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=332" type="enciclopedico">grïegos</term>, 
+                    <caesura/>qué fazién los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=333" type="enciclopedico">latinos</term>,</l>		
+                    <l xml:id="L14">e <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=638" type="religioso">Saúl el vïejo</persName> 
+                    <caesura/>con todos sus vezinos;</l>		
+                    <l xml:id="L15">cuémo yazién los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mares</term> 
+                    <caesura/>e los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=231" type="enciclopedico">ríos</term> vezinos,</l>	
+                    <l xml:id="L16">cuémo sorven los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=231" type="enciclopedico">ríos</term> 
+                    <caesura/>los grandes a los chicos.</l>
+                </lg>
+                
+                <lg n="1795" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L17"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=340" type="enciclopedico">Libia</placeName> 
+                    era de miesses <caesura/>rica e avondada;</l>
+                    <l xml:id="L18">
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=341" type="enciclopedico">la tierra de Amón</placeName>, 
+                    <caesura/>de pluvia muy menguada,</l>
+                    <l xml:id="L19">rïégala 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=348" type="enciclopedico">Egipto</placeName>, 
+                    <caesura/>tiénela muy bastada;</l>		
+                    <l xml:id="L20">el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=161" type="artistico">marfil</term> 
+                    es en <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=342" type="enciclopedico">India</placeName>, 
+                    <caesura/>onde es tan nombrada.</l>
+                </lg>
+                
+                <lg n="1796" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L21">Es de piedras preçiosas	<caesura/>
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=246" type="enciclopedico">África</placeName> bien poblada;</l>
+                    <l xml:id="L22">en ella yaz’ 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=350" type="enciclopedico">Marruecos</placeName>, 
+                    <caesura/>essa çibdat contada;</l>
+                    <l xml:id="L23"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=343" type="enciclopedico">Greçïa</placeName>, 
+                    por <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=351" type="enciclopedico">Atenas</placeName> 
+                    <caesura/>de seso alumbrada;</l>
+                    <l xml:id="L24"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=352" type="enciclopedico">Roma</placeName> 
+                    yaz’ sobre <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=349" type="enciclopedico">Tibre</placeName>, 
+                    <caesura/>de buen muro çercada;</l>
+                </lg>
+                
+                <lg n="1797" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note> 
+                    <l xml:id="L25"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=347" type="enciclopedico">los pueblos de 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=344" type="enciclopedico">España</placeName></term>, 
+                    <caesura/>cómo son tan ligeros;</l>
+                    <l xml:id="L26">pareçién los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=334" type="enciclopedico">françeses</term>, 
+                    <caesura/>valientes cavalleros;</l>
+                    <l xml:id="L27"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=345" type="enciclopedico">Champaña</placeName>, 
+                    que aqueda <caesura/>los vinos delanteros;</l>
+                    <l xml:id="L28"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=346" type="enciclopedico">Saba</placeName>, 
+                    do el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=439" type="enciclopedico">ençenso</term> 
+                    <caesura/>miden a sesteros;</l>
+                </lg>
+                
+                <lg n="1798" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>   
+                    <l xml:id="L29">cuémo se preçian mucho <caesura/>por 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=666" type="enciclopedico">Artús</persName> 
+                    los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=335" type="enciclopedico">bretones</term>,</l>
+                    <l xml:id="L30">cuémo son los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=336" type="enciclopedico">normanos</term> 
+                    <caesura/>orgullosos varones;</l>
+                    <l xml:id="L31"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=337" type="enciclopedico">ingleses</term> 
+                    son fermosos, <caesura/>de blandos coraçones;</l>
+                    <l xml:id="L32"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=338" type="enciclopedico">lombardos</term>, 
+                    cobdiçiosos; <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=339" type="enciclopedico">alemanes</term>, 
+                    fellones.</l>
+                </lg>
+                
+                <lg n="1799" type="terástico" met="4x14" rhyme="AAAA" ana="#edaddelmundo">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=247" subtype="enciclopedico">Edad del mundo</note>   
+                    <l xml:id="L33">Allí <term ref="https://vocabularyserver.com/alexandre/index.php?tema=76" type="artistico">escrivió</term> 
+                    la cuenta, <caesura/>ca de cor la sabié;</l>
+                    <l xml:id="L34">el mundo quándo fue fecho, <caesura/>quántos años avié:</l>
+                    <l xml:id="L35">de tres mill e nueveçientos <caesura/>e doze non tollié</l>
+                    <l xml:id="L36">—agora quatroçientos <caesura/>e seis mill emprendié—.</l>
+                </lg>
+                
+                <lg n="1800" type="terástico" met="4x14" rhyme="AAAA" ana="#daniel">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=223" subtype="religioso">Libro de Daniel</note>   
+                    <l xml:id="L37">Fizo un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=114" type="artistico">petafïo</term>	
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=168" type="artistico">escurament’</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=75" type="artistico">dictado</term></l>
+                    <l xml:id="L38">—de <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=223" type="religioso">Danïel</persName> 
+                    lo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=78" type="artistico">priso</term>, 
+                    <caesura/>que era allí <term ref="https://vocabularyserver.com/alexandre/index.php?tema=77" type="artistico">notado</term>—.</l>	
+                    <l xml:id="L39">Cuemo era <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=300" type="alexandre">Apeles</persName> 
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=88" type="artistico">clérigo</term> bien 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=218" type="artistico">letrado</term>,</l>	
+                    <l xml:id="L40">todo su ministerio <caesura/>tenié bien 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=22" type="artistico">decorado</term>:</l>
+                </lg>
+                
+                <lg n="1801" type="otro(?)" ana="#daniel">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=223" subtype="religioso">Libro de Daniel</note> 
+                    <l xml:id="L41">«Hic situs est aries typicus, duo cornua cuius</l>
+                    <l xml:id="L42">fregit <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=618" type="alexandre">Alexander</persName>, 
+                    totius malleus orbis»</l>			
+                    <l xml:id="L43">(duo cornua sunt duo regna, 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=608" type="enciclopedico">Persarum</placeName> et 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=610" type="enciclopedico">Medorum</placeName>).</l>
+                </lg>
+                
+                <lg n="1802" type="terástico" met="4x14" rhyme="AAAA" ana="#daniel">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=223" subtype="religioso">Libro de Daniel</note> 
+                    <l xml:id="L44">«Aquí yaz’el carnero, <caesura/>los dos cuernos del qual</l>
+                    <l xml:id="L45">crebantó <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=618" type="alexandre">Alexandre</persName>, 
+                    <caesura/>de <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=343" type="enciclopedico">Greçia</placeName> 
+                    natural.</l>	
+                    <l xml:id="L46"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=667" type="alexandre">Narbozones</persName> e 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=668" type="alexandre">Bessus</persName>, 
+                    <caesura/>compaña desleal,</l>		
+                    <l xml:id="L47">estos dos lo mataron <caesura/>con träiçión mortal».</l>
+                </lg>
+                
+                <lg n="1803" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L48">La <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obra</term> 
+                    fue complida; <caesura/>el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">sepulcro</term>, 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=32" type="artistico">alçado</term>,</l>
+                    <l xml:id="L49">fue sobre los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=118" type="artistico">fusiellos</term> 
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=355" type="artistico">igualment’</term>
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=354" type="artistico">assentado</term>.	</l>	
+                    <l xml:id="L50"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=368" type="artistico">Non pareçié juntura</term>, 
+                    <caesura/>tant’era bien <term ref="https://vocabularyserver.com/alexandre/index.php?tema=30" type="artistico">lavrado</term>:</l>		
+                    <l xml:id="L51">¡tal cosa mereçié <caesura/>rëy atán honrado!</l>
+                </lg>
+            </lg>
+        </body>
+    </text>
+</TEI>

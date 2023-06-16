@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Índice de referencias</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Gabriel Calarco</authority>
+            <availability>
+               <licence>
+                  <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution-NonCommercial-ShareAlike 4.0 International</ref>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <listPerson>
+         
+            <person xml:id="ALX">
+               <persName type="standard">Alejandro Magno</persName>
+               <persName type="form">Alexandre</persName>
+               <idno type="VIAF">http://viaf.org/viaf/101353608</idno>
+            </person>    
+
+            <person xml:id="APL">
+               <persName type="standard">Apeles</persName>
+               <persName type="form">Apeles</persName>
+               <idno type="VIAF">http://viaf.org/viaf/262959121</idno>
+            </person>  
+
+            <person xml:id="DAR">
+               <persName type="standard">Darío III</persName>
+               <persName type="form">Darío</persName>
+               <idno type="VIAF">http://viaf.org/viaf/231805730</idno>
+            </person>  
+            
+            <person xml:id="FIL">
+               <persName type="standard">Filipo II</persName>
+               <persName type="form">Felepo</persName>
+               <idno type="VIAF">http://viaf.org/viaf/262339539</idno>
+            </person>      
+            
+            <person xml:id="FLO">
+               <persName type="standard">Filosofía (personaificación alegórica)</persName> 
+               <persName type="form">doña Filosofía</persName>
+               <idno type="????">url</idno>  <!-- este caso es medio límite, quizás estoy estirando demasiado la etiqueta <persName> -->
+            </person>
+    
+            <person xml:id="VUL">
+               <persName type="standard">Vulcano</persName>
+               <persName type="form">Vulcán</persName>
+               <idno type="VIAF">http://viaf.org/viaf/42633769</idno>
+            </person>  
+            
+            <person xml:id="XER">
+               <persName type="standard">Xerxes I</persName> 
+               <persName type="form">Serses</persName>
+               <idno type="VIAF">http://viaf.org/viaf/84647018</idno>
+            </person>  
+            <!-- El más famoso es el primero, y por contexto supongo que se refiere a ese, pero también hay un Xerxes II-->
+            
+            <person xml:id="AQL">
+               <persName type="standard">Aquiles</persName>
+               <persName type="form">Aquiles</persName>
+               <idno type="VIAF">http://viaf.org/viaf/313497080</idno>
+            </person>  
+
+            <person xml:id="HEC">
+               <persName type="standard">Héctor</persName> <!--no puede ser que no esté en viaf!!!-->
+               <persName type="form">Éctor</persName>
+               <idno type="VIAF">not found</idno>
+            </person>
+            
+            <person xml:id="NAB">
+               <persName type="standard">Nabucodonosor II</persName>
+               <persName type="form">Nabucodonosor</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/67850417</idno>
+            </person>     
+            
+            <person xml:id="BAL">
+               <persName type="standard">Belsesar</persName>   <!--Belshazzar-->
+               <persName type="form">Baltasar</persName>
+               <idno type="VIAF">http://viaf.org/viaf/1324636</idno>
+            </person>    
+
+            <person xml:id="CIR">
+               <persName type="standard">Ciro II</persName>
+               <persName type="form">Çiro</persName>
+               <idno type="VIAF">http://viaf.org/viaf/317283453</idno>
+            </person>  
+
+            <person xml:id="CRE">
+               <persName type="standard">Creso</persName>
+               <persName type="form">Cresus</persName>
+               <idno type="VIAF">http://viaf.org/viaf/40190132</idno>
+            </person>  
+
+            <person xml:id="NOE">
+               <persName type="standard">Noé</persName>
+               <persName type="form">Noel</persName>
+               <idno type="VIAF">http://viaf.org/viaf/11187922</idno>
+            </person> 
+
+            <person xml:id="SEM">
+               <persName type="standard">Sem</persName>
+               <persName type="form">Sem</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/308279421</idno>
+            </person> 
+
+            <person xml:id="CAM">
+               <persName type="standard">Cam</persName>
+               <persName type="form">Cam</persName>
+               <idno type="VIAF">http://viaf.org/viaf/58292502</idno>
+            </person> 
+
+            <person xml:id="JAF">
+               <persName type="standard">Jafet</persName>
+               <persName type="form">Jafet</persName>
+               <idno type="VIAF">http://viaf.org/viaf/9599309</idno>
+            </person>
+
+            <person xml:id="ABR">
+               <persName type="standard">Abraham</persName>
+               <persName type="form">Abraham</persName>
+               <idno type="VIAF">http://viaf.org/viaf/89660956</idno>
+            </person>
+
+            <person xml:id="ISA">
+               <persName type="standard">Isaac</persName>
+               <persName type="form">Isac</persName>
+               <idno type="VIAF">http://viaf.org/viaf/143826097</idno>
+            </person>
+
+            <person xml:id="FAR">
+               <persName type="standard">el faraón del éxodo</persName>   <!-- Lo marco como una persona o como un termino dentro del motivo del exodo??-->
+               <persName type="form">Farón</persName>
+               <idno type="VIAF">url</idno>
+            </person>
+            
+            <person xml:id="ARO">
+               <persName type="standard">Aarón</persName>
+               <persName type="form">Arón</persName>
+               <idno type="VIAF">http://viaf.org/viaf/86951058</idno>
+            </person>
+
+            <person xml:id="MOI">
+               <persName type="standard">Moisés</persName>
+               <persName type="form">Möisés</persName>
+               <idno type="VIAF">http://viaf.org/viaf/13586858</idno>
+            </person>
+
+            <person xml:id="DAT">
+               <persName type="standard">Datán</persName> <!-- personaje bíblico -dathan- no aparece en viaf-->
+               <persName type="form">Datán</persName>
+               <idno type="?????"></idno>
+            </person>
+
+            <person xml:id="ABI">
+               <persName type="standard">Abiram</persName> <!-- personaje bíblico - no aparece en viaf-->
+               <persName type="form">Abirón</persName>
+               <idno type="?????"></idno>
+            </person>
+
+            <person xml:id="JOS">
+               <persName type="standard">Josué</persName>
+               <persName type="form">Josüé</persName>
+               <idno type="VIAF">http://viaf.org/viaf/127423381</idno>
+            </person>
+
+            <person xml:id="DAV">
+               <persName type="standard">David</persName>
+               <persName type="form">David</persName>
+               <idno type="VIAF">http://viaf.org/viaf/28348953</idno>
+            </person>
+
+            <person xml:id="SAL">
+               <persName type="standard">Salomón</persName>
+               <persName type="form">Salomón</persName>
+               <idno type="VIAF">http://viaf.org/viaf/100963493</idno>
+            </person>
+            
+            <person xml:id="ROB">
+               <persName type="standard">Roboam</persName>
+               <persName type="form">Roboam</persName>
+               <idno type="VIAF">http://viaf.org/viaf/12250347</idno>
+            </person>
+            
+            <person xml:id="SAU">
+               <persName type="standard">Saúl</persName>
+               <persName type="form">Saúl el viejo</persName>
+               <idno type="VIAF">http://viaf.org/viaf/12294133</idno>
+            </person>
+
+            <person xml:id="ART">
+               <persName type="standard">Arturo Pendragón</persName>
+               <persName type="form">Artús</persName>
+               <idno type="VIAF">http://viaf.org/viaf/172386473</idno>
+            </person>
+
+            <person xml:id="DAN">
+               <persName type="standard">Daniel</persName>
+               <persName type="form">Danïel</persName>
+               <idno type="VIAF">http://viaf.org/viaf/30330876</idno>
+            </person>
+
+            <person xml:id="NAR">
+               <persName type="standard">Nabarzanes</persName>
+               <persName type="form">Narbozones</persName>
+               <idno type="VIAF">http://viaf.org/viaf/305192254</idno>
+            </person>
+
+            <person xml:id="BES">
+               <persName type="standard">Besso</persName>
+               <persName type="form">Bessus</persName>
+               <idno type="VIAF">http://viaf.org/viaf/18156251695007990756</idno>
+            </person>
+
+            <person xml:id="ORF">
+               <persName type="standard">Orfeo</persName>
+               <persName type="form">Orfeo</persName>
+               <idno type="VIAF">http://viaf.org/viaf/309825473</idno>
+            </person>
+
+            <person xml:id="POR">
+               <persName type="standard">Poro</persName>
+               <persName type="form">Poro</persName>
+               <idno type="VIAF">http://viaf.org/viaf/80355291</idno>
+            </person>
+
+            <person xml:id="LUC">
+               <persName type="standard">Lucifer</persName> <!--No lo encuentro en viaf! -->
+               <persName type="form">Luçifer</persName>
+               <idno type="?????">url</idno>
+            </person>
+
+            <person xml:id="HER">
+               <persName type="standard">Hércules</persName>
+               <persName type="form">Hércules</persName>
+               <idno type="VIAF">http://viaf.org/viaf/309842164</idno>
+            </person>
+
+            <person xml:id="PAR">
+               <persName type="standard">Paris Alejandro</persName>
+               <persName type="form">Paris</persName>
+               <idno type="VIAF">http://viaf.org/viaf/381152561615815442141</idno>
+            </person>
+
+            <person xml:id="ANT">
+               <persName type="standard">Anteo</persName>  
+               <persName type="form">Anteon</persName>
+               <idno type="VIAF">http://viaf.org/viaf/206149616656903752946</idno>
+            </person>
+
+            <person xml:id="HEL">
+               <persName type="standard">Helena de Troya</persName>
+               <persName type="form">Elena</persName>
+               <idno type="VIAF">http://viaf.org/viaf/309842564</idno>
+            </person>
+
+            <person xml:id="NIC">
+               <persName type="standard">???</persName>          <!-- No sé quién es. C Rigall no indica y no pude encontrar un rey de armenia con un nombre similar-->
+               <persName type="form">Nicolao</persName>
+               <idno type="VIAF">url</idno>
+            </person>
+
+            <person xml:id="PAU">
+               <persName type="standard">Pausanías de Orestis</persName>       <!--    No lo encuentro en VIAF-->
+               <persName type="form">Pausón</persName>
+               <idno type="VIAF">url</idno>
+            </person>
+            
+            <person xml:id="MEN">
+               <persName type="standard">Memnón de Rodas</persName>
+               <persName type="form">Ménona</persName>
+               <idno type="VIAF">http://viaf.org/viaf/73383776</idno>
+            </person>
+
+            <person xml:id="ISI">
+               <persName type="standard">San Isidoro de Sevilla</persName>
+               <persName type="form">san Esidro</persName>
+               <idno type="VIAF">http://viaf.org/viaf/803890</idno>
+            </person>
+
+            <person xml:id="GAU">
+               <persName type="standard">Gautier de Chatillion</persName>
+               <persName type="form">Galter</persName>
+               <idno type="VIAF">http://viaf.org/viaf/100212859</idno>
+            </person>
+
+            <person xml:id="ANP">
+               <persName type="standard">Antíparo</persName>
+               <persName type="form">Antípater</persName>
+               <idno type="VIAF">http://viaf.org/viaf/61941134</idno>
+            </person>
+
+            <person xml:id="HOM">
+               <persName type="standard">Homero</persName>
+               <persName type="form">Omero</persName>
+               <idno type="VIAF">http://viaf.org/viaf/224924963</idno>
+            </person>
+
+            <person xml:id="SMI">
+               <persName type="standard">Semíramis</persName>
+               <persName type="form">Semíramis</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/128587061</idno>
+            </person>
+
+            <person xml:id="CRI">
+               <persName type="standard">Cristo</persName>
+               <persName type="form">Christo</persName>
+               <idno type="VIAF">http://viaf.org/viaf/38323081</idno>
+            </person>
+
+            <person xml:id="VIR">
+               <persName type="standard">María</persName>
+               <persName type="form">Virgen</persName>
+               <idno type="VIAF">http://viaf.org/viaf/52482731</idno>
+            </person>
+            
+            <person xml:id="ADA">
+               <persName type="standard">Adán</persName>
+               <persName type="form">Adam</persName>
+               <idno type="VIAF">http://viaf.org/viaf/308180317</idno>
+            </person>
+            
+            <person xml:id="ERO">
+               <persName type="standard">Herodes</persName>
+               <persName type="form">Herodes</persName>
+               <idno type="VIAF">http://viaf.org/viaf/107903854</idno>
+            </person>
+        
+            <person xml:id="LAM">
+               <persName type="standard">Lamech</persName>                 
+               <persName type="form">Lamet</persName>
+               <idno type="VIAF">http://viaf.org/viaf/308278764</idno>
+            </person>
+        
+            <person xml:id="JOB">
+               <persName type="standard">Job</persName>
+               <persName type="form">Job</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/57858007</idno>
+            </person>
+        
+            <person xml:id="PLU">
+               <persName type="standard">Plutón</persName>
+               <persName type="form">Pluto</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/306391417</idno>
+            </person>
+        
+            <person xml:id="PAB">
+               <persName type="standard">San Pablo de Tarso</persName>
+               <persName type="form">Paulus</persName>
+               <idno type="VIAF">http://viaf.org/viaf/100178828</idno>
+            </person>
+      
+            <person xml:id="PED">
+               <persName type="standard">San Pedro</persName>
+               <persName type="form">Petrus</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/13581141</idno>
+            </person>
+      
+            <person xml:id="LOT">
+               <persName type="standard">Lot</persName>
+               <persName type="form">Lot</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/78024191</idno>
+            </person>
+      
+            <person xml:id="CAT">
+               <persName type="standard">Catón</persName>
+               <persName type="form">Catón</persName>
+               <idno type="VIAF">http://viaf.org/viaf/99852885</idno>
+            </person>
+      
+            <person xml:id="NIO">
+               <persName type="standard">Niobe</persName>
+               <persName type="form">Nïobé</persName>
+               <idno type="VIAF">http://viaf.org/viaf/31153530973648702954</idno>
+            </person>
+      
+            <person xml:id="FEL">
+               <persName type="standard">Filis</persName>            <!-- Phyllis - no aparece en viaf -->
+               <persName type="form">Felis</persName>
+               <idno type="VIAF"></idno>
+            </person>
+  
+            <person xml:id="ELO">
+               <persName type="standard">Esposa de Lot</persName>
+               <persName type="form">la muger de Lot</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/56233724</idno>
+            </person>
+  
+            <person xml:id="ZOZ">
+               <persName type="standard">Zósimo?</persName>           <!-- Casas Rigal propone dos Zósimos posbles --> 
+               <persName type="form">Zózimas</persName>
+               <idno type="VIAF"></idno>
+            </person>
+  
+            <person xml:id="EST">
+               <persName type="standard">Ester</persName>
+               <persName type="form">Ester</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/30821086</idno>
+            </person>
+  
+            <person xml:id="TIC">
+               <persName type="standard">Tiçio</persName>
+               <persName type="form">Tiçio</persName>
+               <idno type="VIAF"> http://viaf.org/viaf/77401349</idno>
+            </person>
+  
+            <person xml:id="MIG">
+               <persName type="standard">San Miguel</persName>     
+               <persName type="form">san Miguel</persName>
+               <idno type="VIAF">http://viaf.org/viaf/49524228</idno>
+            </person>
+  
+            <person xml:id="MAH">
+               <persName type="standard">Mahoma</persName>
+               <persName type="form">Mafómat</persName>
+               <idno type="VIAF">http://viaf.org/viaf/97245226</idno>
+            </person>
+  
+         </listPerson>                  
+         
+         
+         
+         
+         
+         
+         
+         
+         <listPlace>     
+            
+            <place xml:id="BAB">
+               <placeName type="standard">Babilonia</placeName>
+               <placeName type="form">Babilón</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/912816</idno>
+            </place>
+
+            <place xml:id="TRO">
+               <placeName type="standard">Troya</placeName>
+               <placeName type="form">Troya</placeName>
+               <idno type="plaiades">https://pleiades.stoa.org/places/550595</idno>
+            </place>
+            
+            <place xml:id="ROM">
+               <placeName type="standard">Roma</placeName>
+               <placeName type="form">Roma</placeName>
+               <idno type="plaiades">https://pleiades.stoa.org/places/423025</idno>
+            </place>            
+
+            <place xml:base="617">
+               <placeName type="standard">Pisa</placeName>
+               <placeName type="form">Pisa</placeName>
+               <idno type="geonames">https://www.geonames.org/3170647/pisa.html</idno>
+            </place>
+            
+            <place xml:id="LOM">
+               <placeName type="standard">Lombardía</placeName>
+               <placeName type="form">Lombardía</placeName>
+               <idno type="geonames">https://www.geonames.org/3174618/lombardia.html</idno>
+            </place>
+
+            <place xml:id="JUD">
+               <placeName type="standard">Judea</placeName>
+               <placeName type="form">Judea</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/687934</idno>
+            </place>
+
+            <place xml:id="CAL">
+               <placeName type="standard">Caldea</placeName>
+               <placeName type="form">Caldea</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/915843</idno>
+            </place>         
+
+            <place xml:id="TRI">
+               <placeName type="standard">Trípoli</placeName>
+               <placeName type="form">Tripol</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/668394</idno>
+            </place>
+
+            <place xml:id="TAB">
+               <placeName type="standard">Tiberíades</placeName>  <!--ciudad de Galilea, según C Rigall-->
+               <placeName type="form">Tabarea</placeName>
+               <idno type="geonames">https://www.geonames.org/293322/tiberias.html</idno>
+            </place>
+
+            <place xml:id="JER">
+               <placeName type="standard">Jerusalem</placeName>
+               <placeName type="form">Sïon</placeName>
+               <placeName type="form">Santa Çibdat</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/687928</idno>
+            </place>
+
+            <place xml:id="PER">
+               <placeName type="standard">Persia</placeName>
+               <placeName type="form">Persia</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/922695</idno>
+            </place>     
+            
+            <place xml:id="DAM">
+               <placeName type="standard">Damietta</placeName>
+               <placeName type="form">Damïata</placeName>
+               <idno type="geonames">https://www.geonames.org/358048/damietta.html</idno>
+            </place>            
+            
+            <place xml:id="ARM">
+               <placeName type="standard">Armenia</placeName>
+               <placeName type="form">Armenia</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/981507</idno>
+            </place>       
+
+            <place xml:id="LIB">
+               <placeName type="standard">Libia</placeName>
+               <placeName type="form">Libia</placeName>
+               <idno type="geonames">https://www.geonames.org/2215636/libya.html</idno>
+            </place> 
+
+            <place xml:id="EGP">
+               <placeName type="standard">Egipto</placeName>
+               <placeName type="form">Tierra de Amón</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/981503</idno>
+            </place>
+
+            <place xml:id="IND">
+               <placeName type="standard">India</placeName>
+               <placeName type="form">India</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/50004</idno>
+            </place>
+            
+            <place xml:id="AFR">
+               <placeName type="standard">África</placeName>
+               <placeName type="form">África</placeName>
+               <idno type="geonames">https://www.geonames.org/6255146/africa.html</idno>
+            </place>
+
+            <place xml:id="ASI">
+               <placeName type="standard">Asia</placeName>
+               <placeName type="form">Asïa</placeName>
+               <idno type="geonames">https://www.geonames.org/6255147/asia.html</idno>
+            </place>
+
+            <place xml:id="EUR">
+               <placeName type="standard">Europa</placeName>
+               <placeName type="form">Ëuropa</placeName>
+               <idno type="geonames">https://www.geonames.org/6255148/europe.html</idno>
+            </place>
+
+            <place xml:id="MAR">
+               <placeName type="standard">Marrakech</placeName>
+               <placeName type="form">Marruecos</placeName>
+               <idno type="geonames">https://www.geonames.org/2542997/marrakesh.html</idno>
+            </place>
+
+            <place xml:id="GRE">
+               <placeName type="standard">Grecia</placeName>
+               <placeName type="form">Greçïa</placeName>
+               <idno type="geonames">https://www.geonames.org/390903/hellenic-republic.html</idno>
+            </place>
+
+            <place xml:id="ATE">
+               <placeName type="standard">Atenas</placeName>
+               <placeName type="form">Atenas</placeName>
+               <idno type="pleiades">pleiades.stoa.org/places/579885</idno>
+            </place>
+
+            <place xml:id="CHA">
+               <placeName type="standard">Champaña</placeName>
+               <placeName type="form">Champaña</placeName>
+               <idno type="geonames">https://www.geonames.org/3027487/chalons-en-champagne.html</idno>
+            </place>
+
+            <place xml:id="SAB">
+               <placeName type="standard">Saba</placeName>
+               <placeName type="form">Saba</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/39417</idno>
+            </place>
+
+            <place xml:id="GIB">
+               <placeName type="standard">Gibraltar</placeName>
+               <placeName type="form">Oçident’</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/256045</idno>
+            </place>
+
+            <place xml:id="ESP">
+               <placeName type="standard">España</placeName>
+               <placeName type="form">España</placeName>
+               <idno type="geonames">https://www.geonames.org/2510769/kingdom-of-spain.html</idno>
+            </place>
+
+            <place xml:id="BUR">
+               <placeName type="standard">Burgos</placeName>
+               <placeName type="form">Burgos</placeName>
+               <idno type="geonames">https://www.geonames.org/3127461/burgos.html</idno>
+            </place>
+
+            <place xml:id="PAM">
+               <placeName type="standard">Pamplona</placeName>
+               <placeName type="form">Pamplona</placeName>
+               <idno type="geonames">https://www.geonames.org/3114472/pamplona.html</idno>
+            </place>
+            
+            <place xml:id="SOR">
+               <placeName type="standard">Soria</placeName>
+               <placeName type="form">Sorïa</placeName>
+               <idno type="geonames">https://www.geonames.org/3108681/soria.html</idno>
+            </place>            
+
+            <place xml:id="TOL">
+               <placeName type="standard">Toledo</placeName>
+               <placeName type="form">Toledo</placeName>
+               <idno type="geonames">https://www.geonames.org/2510409/toledo.html</idno>
+            </place> 
+
+            <place xml:id="LEO">
+               <placeName type="standard">León</placeName>
+               <placeName type="form">León</placeName>
+               <idno type="geonames">https://www.geonames.org/3118532/leon.html</idno>
+            </place>
+
+            <place xml:id="LIS">
+               <placeName type="standard">Lisbona</placeName>
+               <placeName type="form">Lixbona</placeName>
+               <idno type="geonames">https://www.geonames.org/2267057/lisbon.html</idno>
+            </place> 
+
+            <place xml:id="BAY">
+               <placeName type="standard">Bayonne</placeName>
+               <placeName type="form">Bayona</placeName>
+               <idno type="geonames">https://www.geonames.org/3034475/bayonne.html</idno>
+            </place> 
+
+            <place xml:id="BOR">
+               <placeName type="standard">Burdeos</placeName>
+               <placeName type="form">Bordel</placeName>
+               <idno type="geonames">https://www.geonames.org/3031582/bordeaux.html</idno>
+            </place> 
+
+            <place xml:id="GAS">
+               <placeName type="standard">Gascuña</placeName>
+               <placeName type="form">Gascoña</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/981505</idno>
+            </place>
+
+            <place xml:id="TOU">
+               <placeName type="standard">Tours</placeName>
+               <placeName type="form">Tors</placeName>
+               <idno type="geonames">https://www.geonames.org/2972191/tours.html</idno>
+            </place> 
+            
+            <place xml:id="PRS">
+               <placeName type="standard">París</placeName>
+               <placeName type="form">París</placeName>
+               <idno type="geonames">https://www.geonames.org/2988507/paris.html</idno>
+            </place> 
+            
+            <place xml:id="PAV">
+               <placeName type="standard">Pavía</placeName>
+               <placeName type="form">Pavía</placeName>
+               <idno type="geonames">https://www.geonames.org/3171366/pavia.html</idno>
+            </place> 
+            
+            <place xml:id="MIL">
+               <placeName type="standard">Milán</placeName>
+               <placeName type="form">Milana</placeName>
+               <idno type="geonames">https://www.geonames.org/3173435/milan.html</idno>
+            </place> 
+            
+            <place xml:id="BER">
+               <placeName type="standard">Verona??</placeName>
+               <placeName type="form">Bergoña</placeName>
+               <idno type="geonames">https://www.geonames.org/3164527/verona.html</idno>
+            </place> 
+            
+            <place xml:id="VIA">
+               <placeName type="standard">Venecia??</placeName>
+               <placeName type="form">Vïana</placeName>
+               <idno type="geonames">https://www.geonames.org/3164603/venice.html</idno>
+            </place> 
+            
+            <place xml:id="BOL">
+               <placeName type="standard">Boloña</placeName>
+               <placeName type="form">Boloña</placeName>
+               <idno type="geonames">https://www.geonames.org/3181928/bologna.html</idno>
+            </place> 
+
+            <place xml:id="TOS">
+               <placeName type="standard">Toscana</placeName>
+               <placeName type="form">Toscana</placeName>
+                <idno type="geonames">https://www.geonames.org/3165361/toscana.html</idno>
+            </place> 
+
+            <place xml:id="MON">
+               <placeName type="standard">Moncayo</placeName>
+               <placeName type="form">Moncayo</placeName>
+               <idno type="geonames">https://www.geonames.org/3116520/sierra-del-moncayo.html</idno>
+            </place> 
+
+            <place xml:id="COG">
+               <placeName type="standard">Cogolla</placeName>
+               <placeName type="form">Cogolla</placeName>
+               <idno type="geonames">https://www.geonames.org/3110237/san-millan-de-la-cogolla.html</idno>
+            </place> 
+
+            <place xml:id="TAJ">
+               <placeName type="standard">Tajo</placeName>
+               <placeName type="form">Tajo</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/256463</idno>
+            </place> 
+            
+            <place xml:id="EBR">
+               <placeName type="standard">Ebro</placeName>
+               <placeName type="form">Ebro</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/246418</idno>
+            </place> 
+            
+            <place xml:id="DUE">
+               <placeName type="standard">Duero</placeName>
+               <placeName type="form">Duero</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/236455</idno>
+            </place> 
+            
+            <place xml:id="TIB">
+               <placeName type="standard">Tíber</placeName>
+               <placeName type="form">Tibre</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/423080</idno>
+            </place> 
+            
+            <place xml:id="NIL">
+               <placeName type="standard">Nilo</placeName>
+               <placeName type="form">Egipto</placeName>
+               <idno type="geonames">https://www.geonames.org/2267057/lisbon.html</idno>
+            </place> 
+
+            <place xml:id="GAR">
+               <placeName type="standard">Garonne</placeName>
+               <placeName type="form">Garona</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/138369</idno>
+            </place> 
+            
+            <place xml:id="FRA">
+               <placeName type="standard">Francia</placeName>
+               <placeName type="form">Galas</placeName>
+               <idno type="geonames">https://www.geonames.org/3017382/republic-of-france.html</idno>
+            </place> 
+            
+            <place xml:id="LEI">
+               <placeName type="standard">Loire</placeName>
+               <placeName type="form">Leire</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/138420</idno>
+            </place>   
+
+            <place xml:id="ROD">
+               <placeName type="standard">Ródano</placeName>
+               <placeName type="form">Ruedano</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/148168</idno>
+            </place>
+
+            <place xml:id="TEB">
+               <placeName type="standard">Tebas</placeName>
+               <placeName type="form">Tebas</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/541138</idno>
+            </place>
+
+            <place xml:id="FRI">
+               <placeName type="standard">Frigia</placeName>
+               <placeName type="form">Frigia</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/609502</idno>
+            </place>
+            
+            <place xml:id="TIR">
+               <placeName type="standard">Tiro</placeName>
+               <placeName type="form">Tiro</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/678437</idno>
+            </place>
+
+            <place xml:id="ALM">
+               <placeName type="standard">Almería</placeName>
+               <placeName type="form">Almaría</placeName>
+               <idno type="geonames">https://www.geonames.org/2521886/almeria.html</idno>
+            </place>
+
+            <place xml:id="CAU">
+               <placeName type="standard">Cáucaso</placeName>
+               <placeName type="form">Cáucaso</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/863766</idno>
+            </place>
+            
+            <place xml:id="INO">
+               <placeName type="standard">Indo</placeName>
+               <placeName type="form">Indos</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/59851</idno>
+            </place>     
+            
+            <place xml:id="ASR">
+               <placeName type="standard">Asiria</placeName>
+               <placeName type="form">Asiria</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/29492</idno>
+            </place>     
+            
+            <place xml:id="PAN">
+               <placeName type="standard">Panfilia</placeName>
+               <placeName type="form">Panfilïa</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/981530</idno>
+            </place>             
+            
+            <place xml:id="MED">
+               <placeName type="standard">Media</placeName>
+               <placeName type="form">Media</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/903080</idno>
+            </place>                
+
+            <place xml:id="MES">
+               <placeName type="standard">Mesopotamia</placeName>
+               <placeName type="form">Mesopotamia</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/874602</idno>
+            </place> 
+
+            <place xml:id="SIR">
+               <placeName type="standard">Siria</placeName>
+               <placeName type="form">Siria</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/981550</idno>
+            </place> 
+            
+            <place xml:id="ARA">
+               <placeName type="standard">Arabia</placeName>
+               <placeName type="form">Arabia</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/981506</idno>
+            </place> 
+
+            <place xml:id="SIN">
+               <placeName type="standard">Sinaí</placeName>
+               <placeName type="form">Sinäi</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/746815</idno>
+            </place>
+
+            <place xml:id="PAL">
+               <placeName type="standard">Palestina</placeName>
+               <placeName type="form">Palestina</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/746815</idno>
+            </place>
+
+            <place xml:id="BRE">
+               <placeName type="standard">Bretaña</placeName>
+               <placeName type="form">Bretaña</placeName>
+               <idno type="geonames">https://www.geonames.org/3030293/bretagne.html</idno>
+            </place>
+
+            <place xml:id="ALE">
+               <placeName type="standard">Alemania</placeName>
+               <placeName type="form">Alemania</placeName>
+               <idno type="geonames">https://www.geonames.org/2921044/federal-republic-of-germany.html</idno>
+            </place>
+
+            <place xml:id="SAM">
+               <placeName type="standard">Samaria</placeName>
+               <placeName type="form">Samaria</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/678369</idno>
+            </place>
+
+            <place xml:id="CAP">
+               <placeName type="standard">Capadocia</placeName>
+               <placeName type="form">Capadoçia</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/981523</idno>
+            </place>
+            
+            <place xml:id="ICO">
+               <placeName type="standard">Iconium?</placeName>
+               <placeName type="form">Iconia</placeName>
+               <idno type="pleiades">https://pleiades.stoa.org/places/648647</idno>
+            </place>            
+
+           
+         </listPlace>
+        
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="desc_asia" ref="https://vocabularyserver.com/alexandre/index.php?tema=426">Descripción de Asia</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+ 
+                
+                <lg n="276" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L1">La <term ref="https://vocabularyserver.com/alexandre/index.php?tema=545" type="artistico">materia</term> 
+                    nos manda <caesura/>por fuerça de razón;</l>
+                    <l xml:id="L2">avemos nós a fer <caesura/>una 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=546" type="artistico">desputaçión</term>:</l>	
+                    <l xml:id="L3">cuémo se part’el mundo <caesura/>por triple partiçión,</l>	
+                    <l xml:id="L4">cuémo faze la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mar</term> 
+                    <caesura/>en todas división.</l>
+                </lg>
+            
+                <lg n="277" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L5">El que partió el mundo <caesura/>fízolo tres partidas;</l>
+                    <l xml:id="L6">son por braços de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mar</term> 
+                    <caesura/>todas tres divididas;</l>	
+                    <l xml:id="L7">la una es mayor; <caesura/>las otras dos, más chicas;</l>
+                    <l xml:id="L8">la mayor es calient’ <caesura/>e las dos, más frías.</l>
+                </lg>  
+            
+                <lg n="278" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L9">Más de la meatad <caesura/>es contra 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=549" type="enciclopedico">Orïente</term>:</l>
+                    <l xml:id="L10">fízola una suerte <caesura/>el Rey Omnipotente;</l>	
+                    <l xml:id="L11">las otras dos alcançan <caesura/>por medio 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=550" type="enciclopedico">Oçidente</term>:</l>	
+                    <l xml:id="L12">fiende la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mar</term>  
+                    por medio <caesura/>ad ambas igualmente.</l>
+                </lg>
+            
+                <lg n="279" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L13">Es clamada por nombre <caesura/>
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=426" type="enciclopedico">Asïa</placeName> la primera;</l>
+                    <l xml:id="L14">la segunda, 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=245" type="enciclopedico">Europa</placeName>; <caesura/>
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=246" type="enciclopedico">África</placeName>, la terçera:</l>	
+                    <l xml:id="L15">tiene el cristianismo <caesura/>a 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=245" type="enciclopedico">Europa</placeName> señera;</l>	
+                    <l xml:id="L16">¡moros tienen las otras, <caesura/>por nuestra grant dentera!</l>
+                </lg>
+            
+                <lg n="280" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L17">Qui asmar’ cuémo yazen <caesura/>las 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=230" type="enciclopedico">mares</term>, de quál guisa</l>
+                    <l xml:id="L18">—la una que comedia, <caesura/>la otra que quartiza—,</l>
+                    <l xml:id="L19">verá que tien’ la cruz <caesura/>essa figura misma,</l>	
+                    <l xml:id="L20">on’ devién los incrédulos <caesura/>prender la mala çisma.</l>
+                </lg>
+            
+                <lg n="281" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L21">Dexemos de las otras: <caesura/>de 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=426" type="enciclopedico">Asia</placeName> nós contemos;</l>
+                    <l xml:id="L22">a lo que començamos, <caesura/>en esso nos tornemos;</l>	
+                    <l xml:id="L23">lo uno que <term ref="https://vocabularyserver.com/alexandre/index.php?tema=547" type="artistico">leyemos</term> 
+                    <caesura/>e lo ál que <term ref="https://vocabularyserver.com/alexandre/index.php?tema=204" type="artistico">oyemos</term>,</l>		
+                    <l xml:id="L24">de las mayores cosas <caesura/>recabdo vos daremos.</l>
+                </lg>
+            
+                <lg n="282" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L25">Aún, de sí misma, <caesura/>ave bondat estraña:</l>
+                    <l xml:id="L26">ave mucho buen <term ref="https://vocabularyserver.com/alexandre/index.php?tema=231" type="enciclopedico">río</term>, 
+                    <caesura/>mucha buena <term ref="https://vocabularyserver.com/alexandre/index.php?tema=399" type="enciclopedico">montaña</term>;</l>
+                    <l xml:id="L27">de panes e de vino, <caesura/>non ha tierra calaña.</l>	
+                    <l xml:id="L28">¡El bien que d’ella dizen <caesura/>non es sinon 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=588" type="artistico">fazaña</term>!</l>
+                </lg>
+            
+                <lg n="283" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L29">Tanto tiene 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=426" type="enciclopedico">Asïa</placeName> 
+                    <caesura/>cuemo todo lo ál</l>
+                    <l xml:id="L30">—aún un poquïello <caesura/>passa de la señal—,</l>	
+                    <l xml:id="L31">ond’asmó <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=618" type="alexandre">Alexandre</persName> 
+                    <caesura/>un seso natural:</l>	
+                    <l xml:id="L32">¡que, si prisiesse essa, <caesura/>avrié todo lo ál!</l>
+                </lg>
+            
+                <lg n="284" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=553" subtype="religioso">Nuevo Testamento</note>   
+                    <l xml:id="L33">Es más rica de todas <caesura/>
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=426" type="enciclopedico">Asïa</placeName>, e mayor;</l>
+                    <l xml:id="L34">aún, cuemo es buena, <caesura/>devié seer mejor:</l>	
+                    <l xml:id="L35" ana="#nuevotestamento">devienle reverençia <caesura/>todas dar, e honor,</l>	
+                    <l xml:id="L36" ana="#nuevotestamento">ca ý naçió 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=630" type="religioso">don Christus</persName>, 
+                    <caesura/>el nuestro Redemptor.</l>
+                </lg>
+            
+                <lg n="285" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=644" subtype="religioso">Antiguo Testamento</note>  
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=553" subtype="religioso">Nuevo Testamento</note>  
+                    <l xml:id="L37" ana="#patriarcas">Dent’ fueron los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=216" type="religioso">patriarcas</term>, 
+                    <caesura/>omnes de santa vida;</l>
+                    <l xml:id="L38" ana="#profetas">otrossí los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=217" type="religioso">profetas</term>, 
+                    <caesura/>una gent’escogida;</l>	
+                    <l xml:id="L39" ana="#nuevotestamento">fue del 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=630" type="religioso">Fi de la Virgen</persName> 
+                    <caesura/>la su sangre vertida:</l>	
+                    <l xml:id="L40" ana="#nuevotestamento">por ent’ fue la fallençia <caesura/>de 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=628" type="religioso">Adam</persName> redemida.</l>
+                </lg>
+            
+                <lg n="286" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=553" subtype="religioso">Nuevo Testamento</note>   
+                    <l xml:id="L41" ana="#nuevotestamento">Toda Santa Iglesia <caesura/>dent’ priso el çimiento;</l>
+                    <l xml:id="L42" ana="#nuevotestamento">dent’ fueron los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=707" type="religioso">apóstolos</term>, 
+                    <caesura/>un honrado conviento;</l>
+                    <l xml:id="L43">pero a <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=245" type="enciclopedico">Ëuropa</placeName> 
+                    <caesura/>Dios le dio alçamiento,</l>		
+                    <l xml:id="L44">ca es <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=352" type="enciclopedico">Roma</placeName> 
+                    <caesura/>cabeça de tod’ordenamiento.</l>
+                </lg>
+            
+                <lg n="287" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=431" subtype="enciclopedico">Lapidario</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L45">Ixen del <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=577" type="religioso">Paraíso</placeName> 
+                    <caesura/>las quatro <term ref="https://vocabularyserver.com/alexandre/index.php?tema=229" type="enciclopedico">aguas</term> santas;</l>
+                    <l xml:id="L46" ana="#lapidario">ý son las buenas piedras <caesura/>
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=448" type="enciclopedico">jaspes</term> e 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=451" type="enciclopedico">dïamantas</term>;</l>	
+                    <l xml:id="L47" ana="#animales">en 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=342" type="enciclopedico">India</placeName> es do son 
+                    <caesura/>las grandes <term ref="https://vocabularyserver.com/alexandre/index.php?tema=554" type="enciclopedico">elefantas</term>,</l>		
+                    <l xml:id="L48">do sembran dos vegadas <caesura/>e cogen otras tantas.</l>
+                </lg>
+            
+                <lg n="288" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L49"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=603" type="enciclopedico">Cáucaso</placeName>, 
+                    un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=399" type="enciclopedico">mont</term>’alto, <caesura/>
+                    li yaz’en un rencón</l>
+                    <l xml:id="L50">—cuemo dizen, en part’ <caesura/>yaze de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=551" type="enciclopedico">Septentrión</term>—;</l>
+                    <l xml:id="L51">náçenle muchos <term ref="https://vocabularyserver.com/alexandre/index.php?tema=231" type="enciclopedico">ríos</term> 
+                    <caesura/>cabdales en fondón,</l>		
+                    <l xml:id="L52">mas <term ref="https://vocabularyserver.com/alexandre/index.php?tema=604" type="enciclopedico">Indos</term> 
+                    es más frío <caesura/>de quantos que ý son.</l>
+                </lg>
+            
+                <lg n="289" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L53">En <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=246" type="enciclopedico">Asia</placeName> 
+                    yaz’<placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=605" type="enciclopedico">Asiria</placeName>, 
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=233" type="enciclopedico">tierra</term> muy abondada;</l>
+                    <l xml:id="L54"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=606" type="enciclopedico">Frigia</placeName> e 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=607" type="enciclopedico">Panfilïa</placeName>, <caesura/>
+                    que non le deven nada;</l>	
+                    <l xml:id="L55">allí son <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=608" type="enciclopedico">Persia</placeName> 
+                    e <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=610" type="enciclopedico">Media</placeName>, <caesura/>
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=302" type="enciclopedico">regnos</term> de fuerte entrada;</l>
+                    <l xml:id="L56">non merez’ <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=609" type="enciclopedico">Mesopótamia</placeName> 
+                    <caesura/>que sea olvidada;</l>
+                </lg>
+            
+                <lg n="290" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L57"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=402" type="enciclopedico">Babilonia</placeName> la magna, 
+                    <caesura/>que todo el mundo val’,</l>
+                    <l xml:id="L58">que val’ más que un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=302" type="enciclopedico">regno</term> 
+                    <caesura/>que es emperïal;</l>	
+                    <l xml:id="L59"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=611" type="enciclopedico">Caldea</placeName>, 
+                    que es tierra <caesura/>de todo comunal;</l>		
+                    <l xml:id="L60">ý son <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=346" type="enciclopedico">Saba</placeName> 
+                    e <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=602" type="enciclopedico">Siria</placeName>, 
+                    <caesura/>buenos uno con ál;</l>
+                </lg>
+            
+                <lg n="291" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=553" subtype="religioso">Nuevo Testamento</note>  
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=645" subtype="religioso">El diluvio universal</note> 
+                    <l xml:id="L61" ana="#nuevotstamento">
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=612" type="enciclopedico">Arabia</placeName>, do a 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=630" type="religioso">Cristo</persName> <caesura/>vinieron con pitança,</l>
+                    <l xml:id="L62" ana="#nuevotstamento">quando fizo en los niños <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=631" type="religioso">Herodes</persName> la matança;</l>	
+                    <l xml:id="L63" ana="#noe"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=613" type="enciclopedico">Armenia</placeName>, 
+                    que al çielo <caesura/>tañe por demostrança</l>		
+                    <l xml:id="L64" ana="#noe">el arca de <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=220" type="religioso">Noé</persName>, 
+                    <caesura/>do fizo la folgança;</l>
+                </lg>
+            
+                <lg n="292" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi #moises">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=646" subtype="religioso">Éxodo</note> 
+                    <l xml:id="L65"><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=341" type="enciclopedico">Egipto</placeName>, 
+                    do los fijos <caesura/>de Israel ixieron;</l>
+                    <l xml:id="L66">el <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=614" type="enciclopedico">monte de Sinäi</placeName>, 
+                    <caesura/>do la Lëy prisieron;</l>	
+                    <l xml:id="L67">el desierto do muchos <caesura/>años estovïeron,</l>	
+                    <l xml:id="L68">do muchas sorrostradas <caesura/>e porfaçio ovieron;</l>
+                </lg>
+            
+                <lg n="293" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi #nuevotestamento">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=553" subtype="religioso">Nuevo Testamento</note>   
+                    <l xml:id="L69">la tierra de 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=615" type="enciclopedico">Judea</placeName>, 
+                    <caesura/>que es mejor de todas,</l>
+                    <l xml:id="L70">do con Santa Iglesia <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=630" type="religioso">Cristo</persName> fizo las bodas;</l>	
+                    <l xml:id="L71">esta, con 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=616" type="enciclopedico">Palestina</placeName>, 
+                    <caesura/>deve atar las otras:</l>	
+                    <l xml:id="L72">contra esta, las otras <caesura/>devién seer devotas.</l>
+                </lg>
+            
+                <lg n="294" type="terástico" met="4x14" rhyme="AAAA" ana="#mapamundi">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=12" subtype="enciclopedico">Mapamundi</note>    
+                    <l xml:id="L73">Otras ý ave muchas <caesura/>que 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=81" type="artistico">contar</term> non sabría;</l>
+                    <l xml:id="L74">aunque lo sopïesse, <caesura/>nunca lo cumpliría,</l>	
+                    <l xml:id="L75">ca serié grant 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=144" type="artistico">estoria</term> <caesura/>e luenga 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=555" type="artistico">ledanía</term>.</l>	
+                    <l xml:id="L76">Mas tornemos al curso <caesura/>mientra nos dura’l día.</l>
+                </lg>    
+                
+            </lg>
+        </body>
+    </text>
+</TEI> 

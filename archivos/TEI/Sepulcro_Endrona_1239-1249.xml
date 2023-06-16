@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="sepul_endrona" ref="https://vocabularyserver.com/alexandre/index.php?tema=702">Sepulcro de Endrona</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                <lg n="1239" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L1"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=300" type="alexandre">Apeles</persName> el ebreo, 
+                    <caesura/>un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=3" type="artistico">maestro</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=20" type="artistico">contado</term>,</l>		
+                    <l xml:id="L2">que de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=25" type="artistico">lavor de manos</term> 
+                    <caesura/>non ovo tan <term ref="https://vocabularyserver.com/alexandre/index.php?tema=17" type="artistico">ortado</term>,</l>	
+                    <l xml:id="L3"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=29" type="artistico">entalló</term> 
+                    el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">sepulcro</term> <caesura/>
+                    en un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=152" type="artistico">mármol</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=172" type="artistico">preçiado</term></l>
+                    <l xml:id="L4">—¡él se <term ref="https://vocabularyserver.com/alexandre/index.php?tema=199" type="artistico">maravillava</term> 
+                    <caesura/>quando lo ovo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obrado</term>!—.</l>
+                </lg> 
+                <lg n="1240" type="terástico" met="4x14" rhyme="AAAA">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=213" subtype="religioso">Caída de Lucifer</note> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=214" subtype="religioso">Adán y Eva</note> 
+                    <l xml:id="L5">Allí <term ref="https://vocabularyserver.com/alexandre/index.php?tema=27" type="artistico">pintó</term> las 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=144" type="artistico">estorias</term> 
+                    <caesura/>quantas nunca cuntieron:</l>
+                    <l xml:id="L6" ana="#caidalucifer">los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=711" type="religioso">ángeles del Çielo</term> 
+                    <caesura/>de quál guisa cayeron;</l>	
+                    <l xml:id="L7" ana="#adanyeva"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=214" type="religioso">los parientes primeros</term> 
+                    <caesura/>cómo se malmetieron</l>
+                    <l xml:id="L8" ana="#adanyeva">porque sobre deviedo <caesura/>la mançana comieron;</l>
+                </lg> 
+                <lg n="1241" type="terástico" met="4x14" rhyme="AAAA">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=645" subtype="religioso">El diluvio universal</note> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=316" subtype="religioso">Torre de Babel</note>
+                    <l xml:id="L9" ana="diluvio">estava más adelant’ <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=220" type="religioso">Noel</persName> el 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=216" type="religioso">patrïarca</term>,</l>
+                    <l xml:id="L10" ana="diluvio">los montes de 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=613" type="enciclopedico">Armenia</placeName> 
+                    <caesura/>do arribó el arca;</l>	
+                    <l xml:id="L11" ana="diluvio"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=669" type="religioso">Sem</persName>, 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=670" type="religioso">Cam</persName> e 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=671" type="religioso">Jafet</persName>, 
+                    <caesura/>cadauno en su comarca;</l>
+                    <l xml:id="L12" ana="#torredebabel">los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=315" type="religioso">Gigantes</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=317" type="religioso">confusos</term> 
+                    <caesura/>e la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=316" type="religioso">Torre</term> que es alta;</l>
+                </lg> 
+                <lg n="1242" type="terástico" met="4x14" rhyme="AAAA">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=216" subtype="religioso">Patriarcas</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=646" subtype="religioso">Éxodo</note>
+                    <l xml:id="L13" ana="#patriarcas"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=221" type="religioso">Abraham</persName> 
+                    el católico, <caesura/><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=632" type="religioso">Isac</persName> çerca él;</l>
+                    <l xml:id="L14" ana="#patriarcas">todos los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=672" type="religioso">Doze Tribos 
+                    <caesura/>fijos de Israel</term>,</l>		
+                    <l xml:id="L15" ana="#exodo">las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=713" type="religioso">plagas</term> 
+                    de <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=341" type="enciclopedico">Egipto</placeName> <caesura/>e el ángel crüel,</l>
+                    <l xml:id="L16" ana="#exodo">el täu en las puertas <caesura/>de sagne del añel,</l>
+                </lg> 
+                <lg n="1243" type="terástico" met="4x14" rhyme="AAAA" ana="#exodo">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=646" subtype="religioso">Éxodo</note>
+                    <l xml:id="L17">las carreras del mar <caesura/>e la muerte de 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=673" type="religioso">Farón</persName>,</l>
+                    <l xml:id="L18">cómo pidién los pueblos <caesura/>rëy a 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=674" type="religioso">Arón</persName>,</l>		
+                    <l xml:id="L19">cómo prendié la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=714" type="religioso">Lëy</term> 
+                    <caesura/><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=222" type="religioso">Möisés</persName> el varón,</l>
+                    <l xml:id="L20">cómo se consumién <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=675" type="religioso">Datán</persName> e 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=676" type="religioso">Abirón</persName>,</l>
+                </lg> 
+                <lg n="1244" type="terástico" met="4x14" rhyme="AAAA">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=646" subtype="religioso">Éxodo</note>
+                    <l xml:id="L21">de quál çevo bivieron <caesura/>por todo el desierto;</l>	
+                    <l xml:id="L22">quál fue el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=712" type="religioso">tabernáculo</term>, 
+                    <caesura/>de quál guisa cubierto.</l>
+                    <l xml:id="L23">¡Todo era <term ref="https://vocabularyserver.com/alexandre/index.php?tema=77" type="artistico">notado</term> 
+                    <caesura/>tan bien e tan en <term ref="https://vocabularyserver.com/alexandre/index.php?tema=169" type="artistico">çierto</term></l>
+                    <l xml:id="L24">que lo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=198" type="artistico">verié</term> todo omne 
+                    <caesura/>como en libro abierto!</l>
+                </lg> 
+                <lg n="1245" type="terástico" met="4x14" rhyme="AAAA" ana=" #profetas">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=646" subtype="religioso">Éxodo</note>
+                    <l xml:id="L25">En la otra <term ref="https://vocabularyserver.com/alexandre/index.php?tema=144" type="artistico">estoria</term>, 
+                    <caesura/>don <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=222" type="religioso">Möisés</persName> finado,</l>	
+                    <l xml:id="L26">tenié en su lugar <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=677" type="religioso">Josüé</persName> el ducado;</l>		
+                    <l xml:id="L27">metiolos en la tierra <caesura/>e fue bien adonado</l>
+                    <l xml:id="L28">—es de Santa Iglesia <caesura/>oy en día plorado—.</l>
+                </lg> 
+                <lg n="1246" type="terástico" met="4x14" rhyme="AAAA" ana="#profetas">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=217" subtype="religioso">Profetas</note>
+                    <l xml:id="L29">Allí eran los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=217" type="religioso">profetas</term>, 
+                    <caesura/>convento general,</l>	
+                    <l xml:id="L30">todos tablas en manos, <caesura/>todos con su 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=146" type="artistico">señal</term>;</l>	
+                    <l xml:id="L31">cadaúno qué dixo <caesura/>o en quál temporal,</l>
+                    <l xml:id="L32">quisque en su <term ref="https://vocabularyserver.com/alexandre/index.php?tema=147" type="artistico">escripto</term> 
+                    <caesura/>de dó era natural.</l>
+                </lg> 
+                <lg n="1247" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeisrael">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=218" subtype="religioso">Reyes de Israel</note>
+                    <l xml:id="L33"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=224" type="religioso">David</persName> 
+                    con su salterio <caesura/>sus salmos acordando;</l>
+                    <l xml:id="L34"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=225" type="religioso">Salamón</persName> 
+                    faze el templo, <caesura/>justos judizios dando;</l>	
+                    <l xml:id="L35"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=226" type="religioso">Roboam</persName> 
+                    en el regno <caesura/>metié çisma e vando.</l>
+                    <l xml:id="L36">En es’ dia fue su <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obra</term> 
+                    <caesura/><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=300" type="alexandre">Apeles</persName> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=45" type="artistico">ençerrando</term>.</l>
+                </lg> 
+                <lg n="1248" type="terástico" met="4x14" rhyme="AAAA" ana="#diosespaganos">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=207" subtype="clasico">Dioses paganos</note>
+                    <l xml:id="L37">Las otras inçidençias <caesura/>de las gentes paganas,</l>
+                    <l xml:id="L38">como non son <term ref="https://vocabularyserver.com/alexandre/index.php?tema=171" type="artistico">abténticas</term>,
+                     <caesura/>yazién más <term ref="https://vocabularyserver.com/alexandre/index.php?tema=107" type="artistico">orellanas</term>.</l>	
+                    <l xml:id="L39">¡Tanto eran las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=144" type="artistico">estorias</term> 
+                    <caesura/>muchas e <term ref="https://vocabularyserver.com/alexandre/index.php?tema=330" type="artistico">adïanas</term></l>
+                    <l xml:id="L40">que sedién sobr’el túmulo <caesura/>las gentes 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=331" type="artistico">päusanas</term>!</l>
+                </lg> 
+                <lg n="1249" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L41">Quando ovo <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=300" type="alexandre">Apeles</persName> 
+                    <caesura/>lo que sopo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=30" type="artistico">labrado</term>,</l>
+                    <l xml:id="L42">fue en quatro <term ref="https://vocabularyserver.com/alexandre/index.php?tema=118" type="artistico">colupnas</term> 
+                    <caesura/>el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">sepulcro</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=32" type="artistico">alçado</term>.</l>
+                    <l xml:id="L43">Fue con grandes obsequios <caesura/>el cuerpo condesado.</l>
+                    <l xml:id="L44">¡El <term ref="https://vocabularyserver.com/alexandre/index.php?tema=19" type="artistico">seso</term> de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=300" type="alexandre">Apeles</term> 
+                    <caesura/>será siempre <term ref="https://vocabularyserver.com/alexandre/index.php?tema=20" type="artistico">contado</term>!</l>
+                </lg> 
+            </lg>
+        </body>
+    </text>
+</TEI>

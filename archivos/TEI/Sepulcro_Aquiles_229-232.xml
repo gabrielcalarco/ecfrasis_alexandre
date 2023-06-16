@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="sepul_aquiles" ref="https://vocabularyserver.com/alexandre/index.php?tema=701">Sepulcro de Aquiles</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                
+                <lg n="329" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L1">Falló en un bel campo <caesura/>una grant 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">sepultura</term>,</l>
+                    <l xml:id="L2">do yazié soterrada <caesura/>la gente de su natura,</l>		
+                    <l xml:id="L3">que tenié cadaúno <caesura/>de suso su 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=147" type="artistico">escriptur</term>a,</l>		
+                    <l xml:id="L4">que <term ref="https://vocabularyserver.com/alexandre/index.php?tema=384" type="artistico">dizié</term> 
+                    cadaúno <caesura/>quí fuera su mestura.</l>
+            </lg> 
+            
+                <lg n="330" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L5">Falló entre los otros <caesura/>un 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">sepulcro honrado</term>,</l>
+                    <l xml:id="L6">todo de buenos <term ref="https://vocabularyserver.com/alexandre/index.php?tema=691" type="artistico">viessos</term> 
+                    <caesura/>en derredor <term ref="https://vocabularyserver.com/alexandre/index.php?tema=692" type="artistico">orlado</term>;</l>	
+                    <l xml:id="L7">qui lo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=693" type="artistico">versificó</term> 
+                    <caesura/>fue omne bien <term ref="https://vocabularyserver.com/alexandre/index.php?tema=21" type="artistico">letrado</term>,</l>	
+                    <l xml:id="L8">ca puso grant <term ref="https://vocabularyserver.com/alexandre/index.php?tema=389" type="artistico">razón</term> 
+                    <caesura/>en poco de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=694" type="artistico">dictado</term>:</l>
+                </lg> 
+            
+                <lg n="331" type="terástico" met="4x14" rhyme="AAAA" ana="#troya">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=205" subtype="clasico">Guerra de Troya</note>
+                    <l xml:id="L9">«<persName ref="https://vocabularyserver.com/alexandre/index.php?tema=210" type="clasico">Aquiles</persName> 
+                    só, que yago <caesura/>so este 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=152" type="artistico">mármol</term> çerrado,</l>
+                    <l xml:id="L10">el que ovo a 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=211" type="clasico">Éctor</persName> 
+                    <caesura/>el troyano rancado;</l>		
+                    <l xml:id="L11">matome por la planta <caesura/>
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=209" type="clasico">Paris</persName> el perjurado,</l>		
+                    <l xml:id="L12">a furto, sin sospecha, <caesura/>yaziendo desarmado».</l>
+                </lg> 
+            
+                <lg n="332" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L13">Quando ovo 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=618" type="alexandre">el rëy</persName> 
+                    <caesura/>el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=114" type="artistico">pitafio</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=201" type="artistico">catado</term>,</l>
+                    <l xml:id="L14">dizié que de dos 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=691" type="artistico">viessos</term> 
+                    <caesura/>nunca fue tan pagado;</l>	
+                    <l xml:id="L15">tovo que fue 
+                    <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=210" type="clasico">Aquiles</persName> 
+                    <caesura/>omne aventurado,</l>		
+                    <l xml:id="L16">que ovo de su <term ref="https://vocabularyserver.com/alexandre/index.php?tema=148" type="artistico">gesta</term> 
+                    <caesura/><term ref="https://vocabularyserver.com/alexandre/index.php?tema=695" type="artistico">dictador</term> 
+                    tan <term ref="https://vocabularyserver.com/alexandre/index.php?tema=392" type="artistico">honrado</term>.</l>
+                </lg>                
+           </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="carro_dario" ref="https://vocabularyserver.com/alexandre/index.php?tema=699">Carro de Darío</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                 
+                <lg n="855" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L1">En medio iva <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=621" type="alexandre">Dario</persName>, 
+                    <caesura/>un cuerpo tan preçioso</l>	
+                    <l xml:id="L2">—¡semejava profeta, <caesura/>tant’era de sabroso!—.</l>	
+                    <l xml:id="L3">El <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">carro</term> 
+                    en que iva <caesura/>tant’era de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=164" type="artistico">fermoso</term></l>		
+                    <l xml:id="L4">que qui’l podié <term ref="https://vocabularyserver.com/alexandre/index.php?tema=198" type="artistico">veer</term> 
+                    <caesura/>teniés’ por <term ref="https://vocabularyserver.com/alexandre/index.php?tema=314" type="artistico">venturoso</term>.</l>
+                </lg> 
+                <lg n="856" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L5">Los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=101" type="artistico">rayos</term> 
+                    eran d’<term ref="https://vocabularyserver.com/alexandre/index.php?tema=150" type="artistico">oro</term>, 
+                    <caesura/>fechos a grant <term ref="https://vocabularyserver.com/alexandre/index.php?tema=320" type="artistico">lavor</term>;</l>		
+                    <l xml:id="L6">las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=100" type="artistico">ruedas</term> esso mismo 
+                    <caesura/>davan grant <term ref="https://vocabularyserver.com/alexandre/index.php?tema=184" type="artistico">resplandor</term>;</l>
+                    <l xml:id="L7">el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=99" type="artistico">ex’</term>, 
+                    de fin’<term ref="https://vocabularyserver.com/alexandre/index.php?tema=151" type="artistico">argent’</term>, 
+                    <caesura/>que cantasse mejor;</l>		
+                    <l xml:id="L8">el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=103" type="artistico">ventril</term> de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=153" type="artistico">çiprés</term>, 
+                    <caesura/>por dar buena olor.</l>
+                </lg>
+                <lg n="857" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L9">El <term ref="https://vocabularyserver.com/alexandre/index.php?tema=104" type="artistico">cabeçón</term> 
+                    del <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">carro</term> 
+                    <caesura/>no’l tengades por <term ref="https://vocabularyserver.com/alexandre/index.php?tema=321" type="artistico">vil</term>:</l>		
+                    <l xml:id="L10">era todo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=31" type="artistico">ondado</term> 
+                    <caesura/>de muy buen <term ref="https://vocabularyserver.com/alexandre/index.php?tema=161" type="artistico">amarfil</term>;</l>		
+                    <l xml:id="L11">todo era <term ref="https://vocabularyserver.com/alexandre/index.php?tema=322" type="artistico">listado</term> 
+                    <caesura/>de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obra</term> de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=85" type="artistico">grafil</term>;</l>		
+                    <l xml:id="L12">¡de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=157" type="artistico">piedras de grant preçio</term> 
+                    <caesura/>avié ý más de mill!</l>
+                </lg> 
+                <lg n="858" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L13">Las puntas de los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=101" type="artistico">rayos</term> 
+                    <caesura/>eran bien <term ref="https://vocabularyserver.com/alexandre/index.php?tema=323" type="artistico">cabeadas</term>,</l>		
+                    <l xml:id="L14">de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=102" type="artistico">bastones</term> 
+                    bien fechos <caesura/>de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=157" type="artistico">piedras preçïadas</term>;</l>	
+                    <l xml:id="L15">eran tan <term ref="https://vocabularyserver.com/alexandre/index.php?tema=18" type="artistico">sotilment’</term> 
+                    <caesura/>todas <term ref="https://vocabularyserver.com/alexandre/index.php?tema=35" type="artistico">engastonadas</term>:</l>		
+                    <l xml:id="L16">¡<term ref="https://vocabularyserver.com/alexandre/index.php?tema=368" type="artistico">semejavan que eran 
+                    <caesura/>en uno ajuntadas</term>!</l>
+                </lg> 
+                <lg n="859" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L17">Digámosvos del <term ref="https://vocabularyserver.com/alexandre/index.php?tema=105" type="artistico">yugo</term>, 
+                    <caesura/>siquier’ de la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=106" type="artistico">lazada</term></l>		
+                    <l xml:id="L18">—<term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obra</term> 
+                    era greçisca <caesura/>nuevamente fallada—:</l>	
+                    <l xml:id="L19">¡toda una <term ref="https://vocabularyserver.com/alexandre/index.php?tema=324" type="enciclopedico">sirpiente</term> 
+                    <caesura/>teniela embraçada</l>		
+                    <l xml:id="L20">por cadena de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=150" type="artistico">oro</term> 
+                    <caesura/>que era muy delgada!</l>
+                </lg> 
+                <lg n="860" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L21">El <term ref="https://vocabularyserver.com/alexandre/index.php?tema=107" type="artistico">escaño</term> 
+                    de <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=621" type="alexandre">Dario</persName> 
+                    <caesura/>era de grant <term ref="https://vocabularyserver.com/alexandre/index.php?tema=325" type="artistico">barata</term>:</l>		
+                    <l xml:id="L22">los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=108" type="artistico">piedes</term> 
+                    de fin’<term ref="https://vocabularyserver.com/alexandre/index.php?tema=150" type="artistico">oro</term> <caesura/>
+                    e los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=109" type="artistico">braços</term> de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=151" type="artistico">plata</term>.</l>		
+                    <l xml:id="L23">¡Más <term ref="https://vocabularyserver.com/alexandre/index.php?tema=173" type="artistico">valién</term> 
+                    los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=110" type="artistico">aniellos</term> 
+                    <caesura/>en que omne los ata</l>		
+                    <l xml:id="L24">que non farién las rendas <caesura/>de toda 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=627" type="enciclopedico">Damïata</placeName>!</l>
+                </lg> 
+                <lg n="861" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L25">Tenié puestos los piedes <caesura/>sobre quatro 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=280" type="enciclopedico">leones</term></l>		
+                    <l xml:id="L26">que <term ref="https://vocabularyserver.com/alexandre/index.php?tema=203" type="artistico">semejavan</term> 
+                    bivos, <caesura/>tanto eran lidones;</l>		
+                    <l xml:id="L27">tenién en las cabeças <caesura/>otros tantos 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=283" type="enciclopedico">grifones</term></l>
+                    <l xml:id="L28">e tenién so las manos <caesura/>todos sendos 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=284" type="enciclopedico">bestiones</term>.</l>
+                </lg> 
+                <lg n="862" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L29">Venié sobre el rëy, <caesura/>por temprar la calor,</l>			
+                    <l xml:id="L30">un <term ref="https://vocabularyserver.com/alexandre/index.php?tema=285" type="enciclopedico">águila</term> 
+                    bien fecha <caesura/>de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=172" type="artistico">preçiosa</term> 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=320" type="artistico">lavor</term>,</l>		
+                    <l xml:id="L31">las alas espandidas <caesura/>por fer sombra mayor;</l>	
+                    <l xml:id="L32">siempre tenié al rëy <caesura/>de temprada sabor.</l>
+                </lg>    
+                 <lg n="863" type="terástico" met="4x14" rhyme="AAAA" ana="#diosespaganos">
+                     <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=207" subtype="clasico">Dioses paganos</note>
+                     <l xml:id="L33">Eran en la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=64" type="artistico">carreta</term> 
+                     <caesura/>todos los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=207" type="clasico">dios</term> 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=27" type="artistico">pintados</term></l>		
+                     <l xml:id="L34">e cuémo son tres çielos <caesura/>e de qué son poblados:</l>
+                     <l xml:id="L35">el somero, muy <term ref="https://vocabularyserver.com/alexandre/index.php?tema=328" type="artistico">claro</term>, 
+                     <caesura/>lleno de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=326" type="artistico">blanqueados</term>;</l>		
+                     <l xml:id="L36">los otros más de yuso, <caesura/>de 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=327" type="artistico">color</term> más 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=329" type="artistico">delgados</term>.</l>
+                </lg>    
+                 
+           </lg>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="viaje_sub" ref="https://vocabularyserver.com/alexandre/index.php?tema=591">Viaje submarino</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <licence>Creative Commons Reconocimiento – CompartirIgual</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"   
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                
+                
+                <lg n="2305" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L1">Una <term ref="https://vocabularyserver.com/alexandre/index.php?tema=588" type="artistico">fazaña</term> suelen 
+                    <caesura/>las gentes <term ref="https://vocabularyserver.com/alexandre/index.php?tema=589" type="artistico">retraer</term>;</l>
+                    <l xml:id="L2">non yaze en <term ref="https://vocabularyserver.com/alexandre/index.php?tema=147" type="artistico">escripto</term>: 
+                    <caesura/>es malo de creer.</l>		
+                    <l xml:id="L3">Si es verdat o non, <caesura/>yo non he ý qué fer,</l>		
+                    <l xml:id="L4">maguer non la quïero <caesura/>en olvido poner.</l>
+                </lg>
+            
+                <lg n="2306" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L5"><term ref="https://vocabularyserver.com/alexandre/index.php?tema=384" type="artistico">Dizen</term> 
+                    que, por saber <caesura/>qué fazen los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=281" type="enciclopedico">pescados</term>,</l>
+                    <l xml:id="L6">cómo viven los chicos <caesura/>entre los más granados,</l>
+                    <l xml:id="L7">fizo <term ref="https://vocabularyserver.com/alexandre/index.php?tema=592" type="artistico">arca de vidrio</term> 
+                    <caesura/>con muzos bien çerrados;</l>	
+                    <l xml:id="L8">metiose él de dentro <caesura/>con dos de sus crïados.</l>
+                </lg>
+            
+                <lg n="2307" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L9">Estos fueron catados <caesura/>de todos los mejores,</l>
+                    <l xml:id="L10">por tal que non oviessen <caesura/>dono los träidores:</l>	
+                    <l xml:id="L11">quan’ que él e que ellos <caesura/>avién aguardadores,</l>	
+                    <l xml:id="L12">non farién a su guisa <caesura/>los malos reboltores.</l>
+                </lg>
+            
+                <lg n="2308" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L13">Fue de buena <term ref="https://vocabularyserver.com/alexandre/index.php?tema=557" type="artistico">betubne</term> 
+                    <caesura/>la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=592" type="artistico">cuba</term> aguisada;</l>
+                    <l xml:id="L14">fue con buenas cadenas <caesura/>bien presa e calçada;</l>	
+                    <l xml:id="L15">fue con pliegos bien firmes <caesura/>a las naves plegada,</l>	
+                    <l xml:id="L16">que fondir non se podiesse <caesura/>e estodiesse colgada.</l>
+                </lg>
+            
+                <lg n="2309" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L17">Mandó que lo dexassen <caesura/>quinze días durar;</l>
+                    <l xml:id="L18">las naves, con tod’esto, <caesura/>pensassen de andar:</l>	
+                    <l xml:id="L19">assaz podrié en esto <caesura/>saber e mesurar</l>		
+                    <l xml:id="L20">e meter en <term ref="https://vocabularyserver.com/alexandre/index.php?tema=147" type="artistico">escripto</term> 
+                    <caesura/>los secretos del mar.</l>
+                </lg>
+            
+                <lg n="2310" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L21">La <term ref="https://vocabularyserver.com/alexandre/index.php?tema=592" type="artistico">cuba</term> 
+                    fue echada <caesura/>en qu’el rëy yazié;</l>
+                    <l xml:id="L22">a los unos pesava, <caesura/>a los otros plazié:</l>
+                    <l xml:id="L23">bien cuidavan algunos <caesura/>que nunca ende saldrié,</l>
+                    <l xml:id="L24">mas destajado era <caesura/>que en mar non morrié.</l>
+                </lg>
+            
+                <lg n="2311" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L25">Andava el buen rëy <caesura/>en su casa çerrada:</l>
+                    <l xml:id="L26">sedié grant coraçón <caesura/>en angosta posada.</l>
+                    <l xml:id="L27">Veyé toda la mar <caesura/>de 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=281" type="enciclopedico">pescados</term> poblada:</l>
+                    <l xml:id="L28">non es <term ref="https://vocabularyserver.com/alexandre/index.php?tema=284" type="enciclopedico">bestia</term> 
+                    en sieglo <caesura/>que non fues’ý trobada.</l>
+                </lg>
+            
+                <lg n="2312" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L29">Non vive en el mundo <caesura/>ninguna crïatura</l>
+                    <l xml:id="L30">que non cría el mar <caesura/>semejante figura.</l>
+                    <l xml:id="L31">Traen enemistades <caesura/>entre sí por natura:</l>
+                    <l xml:id="L32">los fuertes a los flacos <caesura/>danles malaventura.</l>
+                </lg>
+            
+                <lg n="2313" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L33">Estonçes vio el rëy <caesura/>en aquellas andadas</l>
+                    <l xml:id="L34">cómo echan los unos <caesura/>a los otros çeladas.</l>
+                    <l xml:id="L35">Dizen que ende fueran <caesura/>presas e sossacadas:</l>	
+                    <l xml:id="L36">fueron desent’acá <caesura/>en el sieglo usadas.</l>
+                </lg>
+            
+                <lg n="2314" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L37">Tanto se acogién <caesura/>al rëy los 
+                    <term ref="https://vocabularyserver.com/alexandre/index.php?tema=281" type="enciclopedico">pescados</term></l>
+                    <l xml:id="L38">como si los oviés’ <caesura/>por armas sobjudgados:</l>	
+                    <l xml:id="L39">vinién fasta la <term ref="https://vocabularyserver.com/alexandre/index.php?tema=592" type="artistico">cuba</term> 
+                    <caesura/>todos cabez’ colgados;</l>	
+                    <l xml:id="L40">tremién todos ant’él <caesura/>como moços mojados.</l>
+                </lg>
+            
+                <lg n="2315" type="terástico" met="4x14" rhyme="AAAA" ana="#animales">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <l xml:id="L41">Jurava <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=618" type="alexandre">Alexandre</persName> 
+                    <caesura/>por el su diestro lado</l>
+                    <l xml:id="L42">que nunca fuera d’omnes <caesura/>mejor acompañado.</l>	
+                    <l xml:id="L43">De los pueblos del mar <caesura/>tóvose por pagado:</l>	
+                    <l xml:id="L44">¡contava que avié <caesura/>grant imperio ganado!</l>
+                </lg>
+            
+                <lg n="2316" type="terástico" met="4x14" rhyme="AAAA" ana="#animales #soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L45">Otra <term ref="https://vocabularyserver.com/alexandre/index.php?tema=588" type="artistico">fazaña</term> 
+                    vío <caesura/>en essos pobladores:</l>
+                    <l xml:id="L46">vío que los mayores <caesura/>comién a los menores;</l>	
+                    <l xml:id="L47">los chicos a los grandes <caesura/>tenienlos por señores;</l>	
+                    <l xml:id="L48">maltrayén los más fuertes <caesura/>a todos los menores.</l>
+                </lg>
+            
+                <lg n="2317" type="terástico" met="4x14" rhyme="AAAA" ana="#animales #soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L49">Diz’el rëy: «¡<term ref="https://vocabularyserver.com/alexandre/index.php?tema=582" type="religioso">Sobervia</term> 
+                    <caesura/>es en todos lugares!:</l>
+                    <l xml:id="L50">es fuerça en la tierra <caesura/>e dentro en los mares;</l>		
+                    <l xml:id="L51">las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=282" type="enciclopedico">aves</term> 
+                    esso mismo <caesura/>non se catan por pares.</l>	
+                    <l xml:id="L52">¡Dios confonda tal viçio <caesura/>que tien’ tantos lugares!</l>
+                </lg>
+            
+                <lg n="2318" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=213" subtype="religioso">Caída de Lucifer</note> 
+                    <l xml:id="L53" ana="#caidalucifer">»Naçió entre los ángeles: <caesura/>fizo muchos caer;</l>
+                    <l xml:id="L54">derramó por la tierra, <caesura/>diole Dios grant poder.</l>	
+                    <l xml:id="L55">La mesura non puede <caesura/>su derecho aver:</l>		
+                    <l xml:id="L56">ascondió su cabeça, <caesura/>non osa pareçer.</l>
+                </lg>
+            
+                <lg n="2319" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L57">»Qui más puede más faze, <caesura/>non de bien mas de mal;</l>
+                    <l xml:id="L58">qui más ha más quïer’: <caesura/>muere por ganar ál;</l>	
+                    <l xml:id="L59">non verié de su grado <caesura/>ninguno so egual.</l>		
+                    <l xml:id="L60">¡Mal pecado, ninguno <caesura/>non es a Dios leal!</l>
+                </lg>
+            
+                <lg n="2320" type="terástico" met="4x14" rhyme="AAAA" ana="#animales #soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=278" subtype="enciclopedico">Animales</note>
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L61">»Las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=282" type="enciclopedico">aves</term> 
+                    e las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=284" type="enciclopedico">bestia</term>, 
+                    <caesura/>los omnes, los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=281" type="enciclopedico">pescados</term>,</l>
+                    <l xml:id="L62">todos son entre sí <caesura/>a bandos derramados.</l>		
+                    <l xml:id="L63">¡De <term ref="https://vocabularyserver.com/alexandre/index.php?tema=582" type="religioso">viçio de sobervia</term> 
+                    <caesura/>son todos entecados!:</l>	
+                    <l xml:id="L64">¡los flacos de los fuertes <caesura/>andan desafïados!»</l>
+                </lg>
+            
+                <lg n="2321" type="terástico" met="4x14" rhyme="AAAA" ana="#soberbia">
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=582" subtype="religioso">Soberbia</note>
+                    <l xml:id="L65">Si como lo sabié <caesura/>el rëy bien asmar</l>
+                    <l xml:id="L66">quisiesse a sí mismo <caesura/>a derechas judgar,</l>		
+                    <l xml:id="L67">bien devié un poquillo <caesura/>su lengua refrenar,</l>	
+                    <l xml:id="L68">que tan fieras grandías <caesura/>non quisiesse bafar.</l>
+                </lg>
+            
+                <lg n="2322" type="terástico" met="4x14" rhyme="AAAA">
+                    <l xml:id="L69">De su grado el rëy <caesura/>más oviera estado,</l>
+                    <l xml:id="L70">mas a sus criazones <caesura/>faziéseles pesado:</l>		
+                    <l xml:id="L71">temiendo ocasión, <caesura/>que suel’ venir privado,</l>	
+                    <l xml:id="L72">sacáronlo bien ante <caesura/>del término passado.</l>
+                </lg>    
+                
+            </lg>
+        </body>
+    </text>
+</TEI>

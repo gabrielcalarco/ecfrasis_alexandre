@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/TEI_alex.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title type="main">Libro de Alexandre</title>
+                <title type="sub" xml:id="armas_dario" ref="https://vocabularyserver.com/alexandre/index.php?tema=698">
+                Armas de Darío</title>
+                <author ref="#ANM">Anónimo</author>
+                <editor xml:id="GAC">Gabriel A. Calarco</editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>A definir</publisher>
+                <availability>
+                    <p>
+                    <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    Este texto se publica con licencia de uso abierto Creative Commons</ref>
+                    </p>
+                    <!-- <licence>Creative Commons Reconocimiento – CompartirIgual</licence> -->
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl>
+                    <bibl type="book"> 
+                        <title>Libro de Alexandre</title>
+                        <editor>Juan Casas Rigall</editor>
+                        <publisher>Real Academia Española</publisher>
+                        <date>2014</date>
+                        <pubPlace>Madrid</pubPlace>
+                    </bibl>
+                </listBibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Biblioteca Nacional (Madrid)</repository>
+                        <idno>V-5-n.10</idno>
+                        <altIdentifier>
+                            <idno>O</idno>
+                        </altIdentifier>
+                    </msIdentifier>        
+                </msDesc> 
+                
+                <msDesc>      
+                    <msIdentifier>
+                        <repository>Bibliotheque Nationale de France (París)</repository>
+                        <idno>Esp. 488</idno>
+                        <altIdentifier>
+                            <idno>P</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>    
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>    
+            <langUsage>
+                <language ident="sp">Castellano</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <listChange>
+                <change/>
+            </listChange>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text>
+        <body>
+            
+            <note>Se trata de un fragmento del Libro de Alexandre</note>  
+            
+            
+            <lg type="poema" 
+                subtype="épica-culta" 
+                met="4x14" 
+                rhyme="AAAA"
+                unisonancia="singular" 
+                isometrismo="isométrico" 
+                isoestrofismo="heteroestrófico" 
+                asonancia="consonante"> 
+                
+                
+                 <lg n="989" type="terástico" met="4x14" rhyme="AAAA"> 
+                     <l xml:id="L1">Conviene que <term ref="https://vocabularyserver.com/alexandre/index.php?tema=312" type="artistico">fablemos</term>, 
+                     <caesura/>entre las otras cosas,</l>		
+                     <l xml:id="L2">de las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=62" type="artistico">armas</term> 
+                     de <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=621" type="alexandre">Dario</persName>, 
+                     <caesura/>que fueron muy <term ref="https://vocabularyserver.com/alexandre/index.php?tema=172" type="artistico">preçiosas</term>:</l>
+                     <l xml:id="L3">de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obra</term> 
+                     eran <term ref="https://vocabularyserver.com/alexandre/index.php?tema=178" type="artistico">firmes</term>, 
+                     <caesura/>de <term ref="https://vocabularyserver.com/alexandre/index.php?tema=202" type="artistico">pareçer</term> 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=164" type="artistico">fermosas</term>,</l>		
+                     <l xml:id="L4">pora traer <term ref="https://vocabularyserver.com/alexandre/index.php?tema=313" type="artistico">livianas</term>, 
+                     <caesura/>¡mas non bien <term ref="https://vocabularyserver.com/alexandre/index.php?tema=314" type="artistico">venturosas</term>!</l>
+                 </lg>
+                 <lg n="990" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente #torredebabel"> 
+                     <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=316" subtype="religioso">Torre de Babel</note>   
+                     <l xml:id="L5">Avié en el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=98" type="artistico">escudo</term> 
+                     <caesura/>mucha <term ref="https://vocabularyserver.com/alexandre/index.php?tema=177" type="artistico">bella</term> 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=144" type="artistico">estoria</term>,</l>		
+                     <l xml:id="L6">las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=148" type="artistico">gestas</term> 
+                     que fizieron <caesura/>los 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=219" type="religioso">reys de 
+                     <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=402" type="enciclopedico">Babilonia</placeName></term>.</l>	
+                     <l xml:id="L7">Yazié de los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=315" type="religioso">Gigantes</term> 
+                     <caesura/>ý toda la memoria,</l>		
+                     <l xml:id="L8">quando de los <term ref="https://vocabularyserver.com/alexandre/index.php?tema=317" type="religioso">lenguajes</term> 
+                     <caesura/>prisieron la discordia.</l>
+                 </lg>  
+                <lg n="991" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                    <l xml:id="L9">Seyé del otro cabo <caesura/>el rëy de 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=611" type="enciclopedico">Caldea</placeName>,</l>
+                    <l xml:id="L10"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=227" type="religioso">Nabucodonosor</persName>, 
+                    <caesura/>que conquiso 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=615" type="enciclopedico">Judea</placeName>;</l>		
+                    <l xml:id="L11">cuémo priso 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=622" type="enciclopedico">Sïon</placeName>, 
+                    <caesura/><placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=623" type="enciclopedico">Trípol</placeName> e 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=624" type="enciclopedico">Tabarea</placeName></l>
+                    <l xml:id="L12">e quántas ontas fizo <caesura/>sobre la gent’ebrea.</l>
+                </lg>
+                <lg n="992" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                    <l xml:id="L13">Cuémo destruyó el templo <caesura/>en la 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=622" type="enciclopedico">Santa Çibdat</placeName>,</l>
+                     <l xml:id="L14">cuémo fueron los tribos <caesura/>en su cabtividat;</l>
+                     <l xml:id="L15">cuémo sobre el rëy	<caesura/>fizo tal crüeldat,</l>	
+                     <l xml:id="L16">que li sacó los ojos, <caesura/>ca assí fue verdat.</l>
+                </lg>
+                <lg n="993" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                     <l xml:id="L17">Por amor que las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=62" type="artistico">armas</term>	
+                     <caesura/>non fuessen <term ref="https://vocabularyserver.com/alexandre/index.php?tema=179" type="artistico">mazelladas</term>,</l>
+                     <l xml:id="L18">unas <term ref="https://vocabularyserver.com/alexandre/index.php?tema=144" type="artistico">estorias</term> 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=181" type="artistico">bueltas</term> 
+                     <caesura/>—non fuessen <term ref="https://vocabularyserver.com/alexandre/index.php?tema=318" type="artistico">entecadas</term>—</l>	
+                     <l xml:id="L19">non quiso el <term ref="https://vocabularyserver.com/alexandre/index.php?tema=3" type="artistico">maestro</term> 
+                     <caesura/>que fuessen ý <term ref="https://vocabularyserver.com/alexandre/index.php?tema=27" type="artistico">pintadas</term>,</l>	
+                     <l xml:id="L20">ca serién las <term ref="https://vocabularyserver.com/alexandre/index.php?tema=180" type="artistico">derechas</term> 
+                     <caesura/>por essas <term ref="https://vocabularyserver.com/alexandre/index.php?tema=182" type="artistico">desfeadas</term>.</l>
+                </lg>
+                <lg n="994" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                     <l xml:id="L21">Non lo vío por <term ref="https://vocabularyserver.com/alexandre/index.php?tema=19" type="artistico">seso</term> 
+                     <caesura/>que fuesse ý <term ref="https://vocabularyserver.com/alexandre/index.php?tema=37" type="artistico">metido</term></l>
+                    <l xml:id="L22"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=227" type="religioso">Nabucodonosor</persName> 
+                    <caesura/>cuémo fue enloquido,</l>
+                     <l xml:id="L23">ca andido siet’años <caesura/>de memoria sallido,</l>
+                     <l xml:id="L24">pero tornó en cabo <caesura/>en todo su sentido.</l>
+                </lg>
+                <lg n="995" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente">    
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                     <l xml:id="L25">Non quiso ý <term ref="https://vocabularyserver.com/alexandre/index.php?tema=38" type="artistico">poner</term> 
+                     <caesura/>al fijo perjurado</l>
+                     <l xml:id="L26">que fue sobre su padre <caesura/>crudo e denodado;</l>
+                     <l xml:id="L27">lo que peor li sovo, <caesura/>óvolo desmembrado,</l>		
+                     <l xml:id="L28">ca querié regnar solo <caesura/>el que aya mal fado.</l>
+                </lg>
+                <lg n="996" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                     <l xml:id="L29">Mas en cabo estava <caesura/>
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=18" type="artistico">sotilmente</term> 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=26" type="artistico">obrado</term></l>
+                    <l xml:id="L30">el buen regno de 
+                    <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=608" type="enciclopedico">Persia</placeName> 
+                    <caesura/>cuémo fue empeçado:</l>
+                     <l xml:id="L31">la mano que feziera <caesura/>el 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=168" type="artistico">obscuro</term> 
+                     <term ref="https://vocabularyserver.com/alexandre/index.php?tema=75" type="artistico">ditado</term>,</l>	
+                    <l xml:id="L32">lo que don <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=625" type="religioso">Baltasar</persName> 
+                    <caesura/>ovo determinado.</l>
+                </lg>
+                <lg n="997" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                     <l xml:id="L33">La <term ref="https://vocabularyserver.com/alexandre/index.php?tema=144" type="artistico">estoria</term> de 
+                     <persName ref="https://vocabularyserver.com/alexandre/index.php?tema=228" type="religioso">Çiro</persName> 
+                     <caesura/>fue derredor echada,</l>
+                     <l xml:id="L34">qué grant conquista fizo <caesura/>todo por su espada;</l>
+                     <l xml:id="L35">cuémo fue <term ref="https://vocabularyserver.com/alexandre/index.php?tema=715" type="enciclopedico">
+                     la compaña <caesura/>de 
+                     <placeName ref="https://vocabularyserver.com/alexandre/index.php?tema=716" type="enciclopedico">Israel</placeName></term> quitada;</l>
+                    <l xml:id="L36"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=626" type="religioso">Cresus</persName> 
+                    en la su guerra <caesura/>cómo non ganó nada.</l>
+                </lg>
+                <lg n="998" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                     <l xml:id="L37">Cuémo fue a escuso <caesura/>en los montes crïado</l>
+                     <l xml:id="L38">e de quál guisa fue <caesura/>aducho a poblado,</l>
+                     <l xml:id="L39">pero, quando en cabo <caesura/>todo fue delivrado,</l>
+                     <l xml:id="L40">óvolo en batalla <caesura/>una dueña matado.</l>
+                </lg>
+                <lg n="999" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                     <l xml:id="L41">Nunca en este mundo <caesura/>devrié omne fïar,</l>
+                     <l xml:id="L42">que sabe a sus cosas <caesura/>tan mala çaga dar:</l>
+                     <l xml:id="L43">¡sabe a sus amigos <caesura/>poner en grant logar,</l>
+                     <l xml:id="L44">por que peor los pueda <caesura/>en cabo quebrantar!</l>
+                </lg>
+                <lg n="1000" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                    <l xml:id="L45"><persName ref="https://vocabularyserver.com/alexandre/index.php?tema=228" type="religioso">Çiro</persName> fue poderoso 
+                    <caesura/>en tierra e en mar;</l>
+                     <l xml:id="L46">dioli Dios grant ventura, <caesura/>diol’ mucho a ganar,</l>
+                     <l xml:id="L47">pero tod’ su ganançia <caesura/>no’l pudo emparar:</l>	
+                     <l xml:id="L48">¡óvolo una fembra <caesura/>en cabo a matar!</l>
+                </lg>
+                <lg n="1001" type="terástico" met="4x14" rhyme="AAAA" ana="#reyesdeoriente"> 
+                    <note type="motivo" target="https://vocabularyserver.com/alexandre/index.php?tema=219" subtype="religioso">Reyes de Oriente</note>
+                     <l xml:id="L49">Por ninguna riqueza <caesura/>que pudiesse seer,</l>
+                     <l xml:id="L50">nunca devié nul omne <caesura/>lo de Dios posponer,</l>
+                     <l xml:id="L51">ca qui rafez lo da <caesura/>rafez lo pued’ toller:</l>
+                     <l xml:id="L52">¡pierde a Dios en cabo <caesura/>e todo el aver!</l>
+                </lg>
+                
+           </lg>
+        </body>
+    </text>
+</TEI>
